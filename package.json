@@ -1,0 +1,19 @@
+{
+  "name": "musical-mayhem",
+  "version": "5.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "MUSICAL MAYHEM : moteur d'épreuves musicales modulaires en temps réel (host / team / screen).",
+  "scripts": {
+    "start": "node server.js",
+    "gen-challenge-content": "node scripts/gen-challenge-content.js",
+    "challenge-engine-test": "node scripts/challenge-engine-test.js",
+    "smoke-test": "node scripts/smoke-test.js",
+    "profile-test": "node scripts/profile-test.js",
+    "spotify-test": "node scripts/spotify-mock-test.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "ws": "^8.18.0"
+  }
+}

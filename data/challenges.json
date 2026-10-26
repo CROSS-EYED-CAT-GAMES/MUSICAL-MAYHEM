@@ -1,0 +1,333 @@
+[
+  {
+    "id": "classic_blind_test",
+    "name": "LE CLASSIQUE",
+    "shortName": "CLASSIQUE",
+    "description": "Retrouvez le titre et l'artiste. +1 titre, +1 artiste.",
+    "icon": "🎤",
+    "difficulty": 1,
+    "estimatedMinutes": 6,
+    "recommendedQuestions": 10,
+    "mode": "buzzer_compound",
+    "usesBuzzer": true,
+    "usesSpotify": true,
+    "requiresLocalAudio": false,
+    "allowsPowers": true,
+    "allowedPowers": [
+      "double",
+      "shield",
+      "oracle",
+      "silence",
+      "bomb",
+      "chaos"
+    ],
+    "legacy": true,
+    "enabledByDefault": true,
+    "implemented": true,
+    "wrongPenalty": 1,
+    "drawCount": 10,
+    "scoring": {
+      "parts": [
+        {
+          "key": "title",
+          "label": "Titre",
+          "points": 1
+        },
+        {
+          "key": "artist",
+          "label": "Artiste",
+          "points": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "movie_soundtrack",
+    "name": "FILM OU SÉRIE ?",
+    "shortName": "FILM/SÉRIE",
+    "description": "Un thème musical de film ou de série est joué. Retrouvez son nom.",
+    "icon": "🎬",
+    "difficulty": 2,
+    "estimatedMinutes": 6,
+    "recommendedQuestions": 10,
+    "mode": "buzzer",
+    "usesBuzzer": true,
+    "usesSpotify": true,
+    "requiresLocalAudio": false,
+    "allowsPowers": true,
+    "allowedPowers": [
+      "double",
+      "shield",
+      "oracle",
+      "silence",
+      "bomb",
+      "chaos"
+    ],
+    "legacy": false,
+    "enabledByDefault": true,
+    "implemented": true,
+    "wrongPenalty": 1,
+    "drawCount": 10,
+    "scoring": {
+      "points": 2
+    }
+  },
+  {
+    "id": "lost_in_translation",
+    "name": "TRADUCTION FOIREUSE",
+    "shortName": "TRADUCTION",
+    "description": "Retrouvez la chanson depuis sa traduction absurde affichée à l'écran (parfois vers l'anglais pour les chansons françaises).",
+    "icon": "🌐",
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "recommendedQuestions": 5,
+    "mode": "buzzer",
+    "usesBuzzer": true,
+    "usesSpotify": true,
+    "requiresLocalAudio": false,
+    "allowsPowers": true,
+    "allowedPowers": [
+      "double",
+      "shield",
+      "oracle",
+      "silence",
+      "bomb",
+      "chaos"
+    ],
+    "legacy": true,
+    "enabledByDefault": true,
+    "implemented": true,
+    "wrongPenalty": 1,
+    "scoring": {
+      "points": 2
+    },
+    "hasClue": true,
+    "drawCount": 5
+  },
+  {
+    "id": "beat_the_clock",
+    "name": "CONTRE LA MONTRE",
+    "shortName": "CHRONO",
+    "description": "Chrono. Chaque équipe tape un maximum de réponses respectant la contrainte ; contestation possible.",
+    "icon": "⏳",
+    "difficulty": 2,
+    "estimatedMinutes": 4,
+    "recommendedQuestions": 5,
+    "mode": "panic",
+    "usesBuzzer": false,
+    "usesSpotify": false,
+    "requiresLocalAudio": false,
+    "allowsPowers": false,
+    "allowedPowers": [],
+    "legacy": true,
+    "enabledByDefault": true,
+    "implemented": true,
+    "durationSeconds": 30,
+    "pointsPerItem": 1,
+    "challengeCorrect": 2,
+    "challengeWrong": -1,
+    "drawCount": 5
+  },
+  {
+    "id": "final_bet",
+    "name": "LE PARI FINAL",
+    "shortName": "PARI FINAL",
+    "description": "Chaque équipe mise secrètement sur son score actuel, à partir de l'année et du style du morceau. Puis 30s pour écouter et deviner le titre.",
+    "icon": "🎰",
+    "difficulty": 2,
+    "estimatedMinutes": 6,
+    "recommendedQuestions": 3,
+    "mode": "bet",
+    "usesBuzzer": false,
+    "usesSpotify": true,
+    "requiresLocalAudio": false,
+    "allowsPowers": false,
+    "allowedPowers": [],
+    "legacy": true,
+    "enabledByDefault": true,
+    "implemented": true,
+    "maxPlaySeconds": 30
+  },
+  {
+    "id": "five_seconds",
+    "name": "5 SECONDES CHRONO",
+    "shortName": "5 SEC",
+    "description": "Le morceau est joué de plus en plus longtemps. Plus vous buzzez tôt, plus ça rapporte.",
+    "icon": "⏱️",
+    "difficulty": 2,
+    "estimatedMinutes": 5,
+    "recommendedQuestions": 5,
+    "mode": "buzzer_tiered",
+    "usesBuzzer": true,
+    "usesSpotify": true,
+    "requiresLocalAudio": false,
+    "allowsPowers": true,
+    "allowedPowers": [
+      "oracle",
+      "chaos"
+    ],
+    "legacy": false,
+    "enabledByDefault": true,
+    "implemented": true,
+    "wrongPenalty": 1,
+    "scoring": {
+      "tiers": [
+        {
+          "label": "5 secondes",
+          "points": 4,
+          "seconds": 5
+        },
+        {
+          "label": "7 secondes",
+          "points": 3,
+          "seconds": 7
+        },
+        {
+          "label": "10 secondes",
+          "points": 2,
+          "seconds": 10
+        },
+        {
+          "label": "15 secondes",
+          "points": 1,
+          "seconds": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "cover_original",
+    "name": "REPRISE OU ORIGINAL ?",
+    "shortName": "REPRISE",
+    "description": "Spotify joue une reprise. Identifiez l'artiste original (et éventuellement l'interprète de la reprise).",
+    "icon": "🎼",
+    "difficulty": 3,
+    "estimatedMinutes": 5,
+    "recommendedQuestions": 5,
+    "mode": "buzzer_compound",
+    "usesBuzzer": true,
+    "usesSpotify": true,
+    "requiresLocalAudio": false,
+    "allowsPowers": true,
+    "allowedPowers": [
+      "double",
+      "shield",
+      "oracle",
+      "silence",
+      "bomb",
+      "chaos"
+    ],
+    "legacy": false,
+    "enabledByDefault": true,
+    "implemented": true,
+    "wrongPenalty": 1,
+    "scoring": {
+      "parts": [
+        {
+          "key": "original",
+          "label": "Artiste original",
+          "points": 2
+        },
+        {
+          "key": "cover",
+          "label": "Interprète de la reprise",
+          "points": 1
+        }
+      ]
+    },
+    "drawCount": 5
+  },
+  {
+    "id": "the_chain",
+    "name": "LA CHAÎNE",
+    "shortName": "CHAÎNE",
+    "description": "Construction collective d'une chaîne musicale (même artiste, même année, mot commun...). Mécanique multi-étapes non encore implémentée (voir README « ajouter une épreuve » pour la construire sur le moteur perform/buzzer existant).",
+    "icon": "🔗",
+    "difficulty": 4,
+    "estimatedMinutes": 8,
+    "recommendedQuestions": 1,
+    "mode": "buzzer",
+    "usesBuzzer": true,
+    "usesSpotify": true,
+    "requiresLocalAudio": false,
+    "allowsPowers": false,
+    "allowedPowers": [],
+    "legacy": false,
+    "enabledByDefault": false,
+    "implemented": false,
+    "wrongPenalty": 0,
+    "scoring": {
+      "points": 1
+    }
+  },
+  {
+    "id": "spotify_roulette",
+    "name": "JOUEUR A, JOUEUR B OU LES DEUX ?",
+    "shortName": "QUI ÉCOUTE",
+    "description": "Un morceau est joué : devinez qui, du joueur A ou du joueur B (ou les deux), l'écoute vraiment.",
+    "icon": "❓",
+    "difficulty": 2,
+    "estimatedMinutes": 10,
+    "recommendedQuestions": 16,
+    "mode": "choice",
+    "usesBuzzer": false,
+    "usesSpotify": true,
+    "requiresLocalAudio": false,
+    "allowsPowers": true,
+    "allowedPowers": [
+      "double",
+      "shield",
+      "oracle",
+      "chaos"
+    ],
+    "legacy": false,
+    "enabledByDefault": true,
+    "implemented": true,
+    "scoring": {
+      "optionsCount": 3,
+      "correctPoints": 2
+    }
+  },
+  {
+    "id": "album_detective",
+    "name": "DÉTECTIVE D'ALBUM",
+    "shortName": "ALBUM",
+    "description": "Identifiez l'album (et éventuellement l'année) du morceau joué.",
+    "icon": "🕵️‍♀️",
+    "difficulty": 3,
+    "estimatedMinutes": 5,
+    "recommendedQuestions": 5,
+    "mode": "buzzer_compound",
+    "usesBuzzer": true,
+    "usesSpotify": true,
+    "requiresLocalAudio": false,
+    "allowsPowers": true,
+    "allowedPowers": [
+      "double",
+      "shield",
+      "oracle",
+      "silence",
+      "bomb",
+      "chaos"
+    ],
+    "legacy": false,
+    "enabledByDefault": true,
+    "implemented": true,
+    "wrongPenalty": 1,
+    "scoring": {
+      "parts": [
+        {
+          "key": "album",
+          "label": "Album",
+          "points": 2
+        },
+        {
+          "key": "year",
+          "label": "Année",
+          "points": 1
+        }
+      ]
+    },
+    "drawCount": 5
+  }
+]

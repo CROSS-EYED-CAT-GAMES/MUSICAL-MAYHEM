@@ -1,0 +1,3061 @@
+{
+  "classic_blind_test": [
+    {
+      "id": "CL001",
+      "challenge": "classic_blind_test",
+      "number": 1,
+      "trackId": "trk_019",
+      "hint": "C'est un tube de Queen sorti en 1975."
+    },
+    {
+      "id": "CL002",
+      "challenge": "classic_blind_test",
+      "number": 2,
+      "trackId": "trk_020",
+      "hint": "Un hôtel mystérieux en Californie..."
+    },
+    {
+      "id": "CL003",
+      "challenge": "classic_blind_test",
+      "number": 3,
+      "trackId": "trk_021",
+      "hint": "Adele, tirée de l'album 21."
+    },
+    {
+      "id": "CL004",
+      "challenge": "classic_blind_test",
+      "number": 4,
+      "trackId": "trk_022",
+      "hint": "Ed Sheeran, sorti en 2017."
+    },
+    {
+      "id": "CL005",
+      "challenge": "classic_blind_test",
+      "number": 5,
+      "trackId": "trk_023",
+      "hint": "Bon Jovi, on tient bon jusqu'à minuit."
+    },
+    {
+      "id": "CL006",
+      "challenge": "classic_blind_test",
+      "number": 6,
+      "trackId": "trk_024",
+      "hint": "Daft Punk avec Pharrell Williams."
+    },
+    {
+      "id": "CLAS007",
+      "challenge": "classic_blind_test",
+      "number": 7,
+      "trackId": "trk_135",
+      "hint": "Lady Gaga brouille les pistes avec un visage impassible."
+    },
+    {
+      "id": "CLAS008",
+      "challenge": "classic_blind_test",
+      "number": 8,
+      "trackId": "trk_152",
+      "hint": "Tryo s'excuse après une soirée un peu trop arrosée."
+    },
+    {
+      "id": "CLAS009",
+      "challenge": "classic_blind_test",
+      "number": 9,
+      "trackId": "trk_153",
+      "hint": "Orelsan et Stromae se retrouvent sous les intempéries."
+    },
+    {
+      "id": "CLAS010",
+      "challenge": "classic_blind_test",
+      "number": 10,
+      "trackId": "trk_154",
+      "hint": "Keane nous emmène dans un endroit que seuls deux êtres connaissent."
+    },
+    {
+      "id": "CLAS011",
+      "challenge": "classic_blind_test",
+      "number": 11,
+      "trackId": "trk_155",
+      "hint": "Snow Patrol préfère rester immobile avec la personne qu'il aime."
+    },
+    {
+      "id": "CLAS012",
+      "challenge": "classic_blind_test",
+      "number": 12,
+      "trackId": "trk_156",
+      "hint": "Eric Prydz transforme une demande en véritable hymne dance des années 2000."
+    },
+    {
+      "id": "CLAS013",
+      "challenge": "classic_blind_test",
+      "number": 13,
+      "trackId": "trk_157",
+      "hint": "Outkast nous invite à bouger sur un refrain irrésistible."
+    },
+    {
+      "id": "CLAS014",
+      "challenge": "classic_blind_test",
+      "number": 14,
+      "trackId": "trk_158",
+      "hint": "Les Arctic Monkeys évoquent la nostalgie de la jeunesse et des amours passées."
+    },
+    {
+      "id": "CLAS015",
+      "challenge": "classic_blind_test",
+      "number": 15,
+      "trackId": "trk_159",
+      "hint": "Avril Lavigne raconte l'histoire d'un garçon skateur qui n'était pas du goût de tout le monde."
+    },
+    {
+      "id": "CLAS016",
+      "challenge": "classic_blind_test",
+      "number": 16,
+      "trackId": "trk_160",
+      "hint": "Gossip et Beth Ditto nous font porter une lourde croix sur un rythme rock."
+    },
+    {
+      "id": "CLAS017",
+      "challenge": "classic_blind_test",
+      "number": 17,
+      "trackId": "trk_161",
+      "hint": "Irene Cara célèbre le rêve, la danse et le sentiment de pouvoir tout accomplir."
+    },
+    {
+      "id": "CLAS018",
+      "challenge": "classic_blind_test",
+      "number": 18,
+      "trackId": "trk_162",
+      "hint": "Kid Cudi raconte les nuits blanches et les pensées qui tournent en boucle."
+    },
+    {
+      "id": "CLAS019",
+      "challenge": "classic_blind_test",
+      "number": 19,
+      "trackId": "trk_163",
+      "hint": "Philippe Katerine nous donne rendez-vous dans un lieu de fête très particulier."
+    },
+    {
+      "id": "CLAS020",
+      "challenge": "classic_blind_test",
+      "number": 20,
+      "trackId": "trk_164",
+      "hint": "Franz Ferdinand fait monter la tension avant une explosion de guitares."
+    },
+    {
+      "id": "CLAS021",
+      "challenge": "classic_blind_test",
+      "number": 21,
+      "trackId": "trk_165",
+      "hint": "Les Black Eyed Peas mélangent séduction, jalousie et sonorités électro."
+    },
+    {
+      "id": "CLAS022",
+      "challenge": "classic_blind_test",
+      "number": 22,
+      "trackId": "trk_166",
+      "hint": "Bob Sinclar et Steve Edwards lancent un appel à la planète sur un rythme house."
+    },
+    {
+      "id": "CLAS023",
+      "challenge": "classic_blind_test",
+      "number": 23,
+      "trackId": "trk_167",
+      "hint": "Les BB Brunes chantent l'amour avec un refrain qui reste en tête."
+    },
+    {
+      "id": "CLAS024",
+      "challenge": "classic_blind_test",
+      "number": 24,
+      "trackId": "trk_168",
+      "hint": "Sexion d'Assaut nous entraîne dans une virée nocturne aux couleurs du Wati B."
+    },
+    {
+      "id": "CLAS025",
+      "challenge": "classic_blind_test",
+      "number": 25,
+      "trackId": "trk_169",
+      "hint": "Lana Del Rey mêle amour mélancolique, jeux vidéo et ambiance rétro."
+    },
+    {
+      "id": "CLAS026",
+      "challenge": "classic_blind_test",
+      "number": 26,
+      "trackId": "trk_170",
+      "hint": "David Guetta et Kelly Rowland racontent le moment où les sentiments prennent le dessus."
+    },
+    {
+      "id": "CLAS027",
+      "challenge": "classic_blind_test",
+      "number": 27,
+      "trackId": "trk_171",
+      "hint": "Edward Maya et Vika Jigulina nous font voyager avec un accordéon devenu incontournable."
+    },
+    {
+      "id": "CLAS028",
+      "challenge": "classic_blind_test",
+      "number": 28,
+      "trackId": "trk_172",
+      "hint": "Le collectif nantais C2C transforme le scratch en une machine à danser."
+    },
+    {
+      "id": "CLAS029",
+      "challenge": "classic_blind_test",
+      "number": 29,
+      "trackId": "trk_173",
+      "hint": "Dua Lipa établit trois règles pour ne pas retomber dans les bras de son ex."
+    },
+    {
+      "id": "CLAS030",
+      "challenge": "classic_blind_test",
+      "number": 30,
+      "trackId": "trk_174",
+      "hint": "Aya Nakamura met les amitiés féminines et les histoires de cœur au centre du jeu."
+    },
+    {
+      "id": "CLAS031",
+      "challenge": "classic_blind_test",
+      "number": 31,
+      "trackId": "trk_175",
+      "hint": "Bigflo & Oli racontent quatre destins qui auraient pu prendre un autre chemin."
+    },
+    {
+      "id": "CLAS032",
+      "challenge": "classic_blind_test",
+      "number": 32,
+      "trackId": "trk_176",
+      "hint": "Shy'm affirme ses certitudes sur un rythme pop entraînant."
+    },
+    {
+      "id": "CLAS033",
+      "challenge": "classic_blind_test",
+      "number": 33,
+      "trackId": "trk_177",
+      "hint": "Foster The People cachent derrière une mélodie entraînante un sujet bien plus sombre."
+    },
+    {
+      "id": "CLAS034",
+      "challenge": "classic_blind_test",
+      "number": 34,
+      "trackId": "trk_178",
+      "hint": "Phoenix rend hommage à un compositeur classique dans un tube indie pop électrisant."
+    },
+    {
+      "id": "CLAS035",
+      "challenge": "classic_blind_test",
+      "number": 35,
+      "trackId": "trk_179",
+      "hint": "The Weeknd et Daft Punk mêlent funk rétro et romance futuriste."
+    },
+    {
+      "id": "CLAS036",
+      "challenge": "classic_blind_test",
+      "number": 36,
+      "trackId": "trk_180",
+      "hint": "Coldplay célèbre l'euphorie et l'amour dans un hymne aux couleurs éclatantes."
+    }
+  ],
+  "lost_in_translation": [
+    {
+      "id": "LIT001",
+      "challenge": "lost_in_translation",
+      "number": 1,
+      "trackId": "trk_030",
+      "clue": "Le bidule qui repousse la pluie au-dessus de ta tête",
+      "hint": "Rihanna, 2007."
+    },
+    {
+      "id": "LIT002",
+      "challenge": "lost_in_translation",
+      "number": 2,
+      "trackId": "trk_031",
+      "clue": "Je ne compte pas mourir, merci bien",
+      "hint": "Un classique disco de la fin des années 70."
+    },
+    {
+      "id": "LIT003",
+      "challenge": "lost_in_translation",
+      "number": 3,
+      "trackId": "trk_032",
+      "clue": "Mon cœur, complètement dans le noir",
+      "hint": "Bonnie Tyler, 1983."
+    },
+    {
+      "id": "LIT004",
+      "challenge": "lost_in_translation",
+      "number": 4,
+      "trackId": "trk_033",
+      "clue": "Mon bassin ne raconte pas de mensonges",
+      "hint": "Shakira et Wyclef Jean."
+    },
+    {
+      "id": "LIT005",
+      "challenge": "lost_in_translation",
+      "number": 5,
+      "trackId": "trk_034",
+      "clue": "C'est franchement pas facile à comprendre",
+      "hint": "Avril Lavigne, 2002."
+    },
+    {
+      "id": "LIT006",
+      "challenge": "lost_in_translation",
+      "number": 6,
+      "trackId": "trk_009",
+      "clue": "So, Are We Dancing Then?",
+      "hint": "Stromae, 2009. Une traduction volontairement littérale vers l'anglais."
+    },
+    {
+      "id": "LIT007",
+      "challenge": "lost_in_translation",
+      "number": 7,
+      "trackId": "trk_008",
+      "clue": "I Would Very Much Like, Please",
+      "hint": "Zaz, 2010. Ici, la chanson est française et l'indice est traduit vers l'anglais."
+    },
+    {
+      "id": "LIT008",
+      "challenge": "lost_in_translation",
+      "number": 8,
+      "trackId": "trk_007",
+      "clue": "Terrifying",
+      "hint": "Stromae, 2013. Piège : le titre français ne veut pas dire cela en anglais."
+    },
+    {
+      "id": "LIT009",
+      "challenge": "lost_in_translation",
+      "number": 9,
+      "trackId": "trk_257",
+      "clue": "Une histoire d'amour qui sent les ennuis",
+      "hint": "Lady Gaga, avec un refrain très reconnaissable."
+    },
+    {
+      "id": "LIT010",
+      "challenge": "lost_in_translation",
+      "number": 10,
+      "trackId": "trk_258",
+      "clue": "Les filles veulent simplement s'amuser",
+      "hint": "Un hymne pop festif des années 80."
+    },
+    {
+      "id": "LIT011",
+      "challenge": "lost_in_translation",
+      "number": 11,
+      "trackId": "trk_259",
+      "clue": "Je veux sortir de ma cage",
+      "hint": "Queen, avec un clip célèbre et décalé."
+    },
+    {
+      "id": "LIT012",
+      "challenge": "lost_in_translation",
+      "number": 12,
+      "trackId": "trk_260",
+      "clue": "N'essaie surtout pas de me freiner maintenant",
+      "hint": "Un hymne euphorique de Queen."
+    },
+    {
+      "id": "LIT013",
+      "challenge": "lost_in_translation",
+      "number": 13,
+      "trackId": "trk_261",
+      "clue": "L'autoroute qui mène tout droit aux ennuis éternels",
+      "hint": "Un classique hard rock australien."
+    },
+    {
+      "id": "LIT014",
+      "challenge": "lost_in_translation",
+      "number": 14,
+      "trackId": "trk_262",
+      "clue": "Un mort-vivant, mais en chanson",
+      "hint": "Le groupe irlandais The Cranberries, avec Dolores O'Riordan."
+    },
+    {
+      "id": "LIT015",
+      "challenge": "lost_in_translation",
+      "number": 15,
+      "trackId": "trk_263",
+      "clue": "Je suis en train de perdre ma religion",
+      "hint": "Un tube alternatif du début des années 90."
+    },
+    {
+      "id": "LIT016",
+      "challenge": "lost_in_translation",
+      "number": 16,
+      "trackId": "trk_264",
+      "clue": "Alors, qu'est-ce qui se passe là-haut ?",
+      "hint": "Un refrain que beaucoup chantent à pleins poumons."
+    },
+    {
+      "id": "LIT017",
+      "challenge": "lost_in_translation",
+      "number": 17,
+      "trackId": "trk_265",
+      "clue": "Oups, j'ai encore fait la même bêtise",
+      "hint": "Britney Spears, au tournant des années 2000."
+    },
+    {
+      "id": "LIT018",
+      "challenge": "lost_in_translation",
+      "number": 18,
+      "trackId": "trk_266",
+      "clue": "Dangereux pour la santé, ce truc",
+      "hint": "Britney Spears, avec une production pop très nerveuse."
+    },
+    {
+      "id": "LIT019",
+      "challenge": "lost_in_translation",
+      "number": 19,
+      "trackId": "trk_267",
+      "clue": "Impossible de te sortir de mon ciboulot",
+      "hint": "Kylie Minogue, 2001. Un refrain qui tourne en boucle."
+    },
+    {
+      "id": "LIT020",
+      "challenge": "lost_in_translation",
+      "number": 20,
+      "trackId": "trk_268",
+      "clue": "Complètement cinglé",
+      "hint": "Le duo Gnarls Barkley et son tube soul-pop."
+    },
+    {
+      "id": "LIT021",
+      "challenge": "lost_in_translation",
+      "number": 21,
+      "trackId": "trk_269",
+      "clue": "Centre de remise sur pied",
+      "hint": "Amy Winehouse, avec une ambiance rétro-soul."
+    },
+    {
+      "id": "LIT022",
+      "challenge": "lost_in_translation",
+      "number": 22,
+      "trackId": "trk_270",
+      "clue": "Un feu d'artifice dans ta carcasse",
+      "hint": "Katy Perry encourage chacun à briller."
+    },
+    {
+      "id": "LIT023",
+      "challenge": "lost_in_translation",
+      "number": 23,
+      "trackId": "trk_271",
+      "clue": "Tu pourrais éventuellement me téléphoner",
+      "hint": "Un hit pop ultra accrocheur du début des années 2010."
+    },
+    {
+      "id": "LIT024",
+      "challenge": "lost_in_translation",
+      "number": 24,
+      "trackId": "trk_272",
+      "clue": "Content comme un enfant le jour de fête",
+      "hint": "Le morceau de Pharrell Williams associé au film Moi, moche et méchant 2."
+    },
+    {
+      "id": "LIT025",
+      "challenge": "lost_in_translation",
+      "number": 25,
+      "trackId": "trk_273",
+      "clue": "Laisse-la s'en aller",
+      "hint": "Passenger, connu pour cette ballade acoustique."
+    },
+    {
+      "id": "LIT026",
+      "challenge": "lost_in_translation",
+      "number": 26,
+      "trackId": "trk_274",
+      "clue": "Faire le compte des étoiles",
+      "hint": "Un tube pop-rock de OneRepublic."
+    },
+    {
+      "id": "LIT027",
+      "challenge": "lost_in_translation",
+      "number": 27,
+      "trackId": "trk_275",
+      "clue": "Qui émet des radiations",
+      "hint": "Imagine Dragons, avec une production rock puissante."
+    },
+    {
+      "id": "LIT028",
+      "challenge": "lost_in_translation",
+      "number": 28,
+      "trackId": "trk_276",
+      "clue": "La ferme et viens danser",
+      "hint": "Un morceau pop-rock taillé pour la piste."
+    },
+    {
+      "id": "LIT029",
+      "challenge": "lost_in_translation",
+      "number": 29,
+      "trackId": "trk_277",
+      "clue": "Tout doucement, tout doucement",
+      "hint": "Un énorme succès latino de Luis Fonsi et Daddy Yankee."
+    },
+    {
+      "id": "LIT030",
+      "challenge": "lost_in_translation",
+      "number": 30,
+      "trackId": "trk_278",
+      "clue": "Le son qui dit : c'est le moment pour l'Afrique",
+      "hint": "L'hymne de Shakira pour la Coupe du monde de football 2010."
+    },
+    {
+      "id": "LIT031",
+      "challenge": "lost_in_translation",
+      "number": 31,
+      "trackId": "trk_279",
+      "clue": "Le style du quartier de Gangnam",
+      "hint": "Le hit coréen devenu phénomène mondial grâce à sa danse."
+    },
+    {
+      "id": "LIT032",
+      "challenge": "lost_in_translation",
+      "number": 32,
+      "trackId": "trk_280",
+      "clue": "The Final Dance",
+      "hint": "Indila, 2013. Ici, le titre français est traduit vers l'anglais."
+    },
+    {
+      "id": "LIT033",
+      "challenge": "lost_in_translation",
+      "number": 33,
+      "trackId": "trk_281",
+      "clue": "I Give You",
+      "hint": "Un duo franco-britannique des années 80."
+    },
+    {
+      "id": "LIT034",
+      "challenge": "lost_in_translation",
+      "number": 34,
+      "trackId": "trk_282",
+      "clue": "So That You Love Me Again",
+      "hint": "Un grand succès écrit par Jean-Jacques Goldman."
+    },
+    {
+      "id": "LIT035",
+      "challenge": "lost_in_translation",
+      "number": 35,
+      "trackId": "trk_283",
+      "clue": "The Lakes of Connemara",
+      "hint": "Un classique français connu pour son final fédérateur."
+    },
+    {
+      "id": "LIT036",
+      "challenge": "lost_in_translation",
+      "number": 36,
+      "trackId": "trk_284",
+      "clue": "Winning Mistral",
+      "hint": "Renaud, dans une chanson nostalgique et tendre."
+    },
+    {
+      "id": "LIT037",
+      "challenge": "lost_in_translation",
+      "number": 37,
+      "trackId": "trk_285",
+      "clue": "Dana's Tribe",
+      "hint": "Le groupe Manau mélange rap et inspirations celtiques."
+    },
+    {
+      "id": "LIT038",
+      "challenge": "lost_in_translation",
+      "number": 38,
+      "trackId": "trk_286",
+      "clue": "Take Off the Shirt",
+      "hint": "Un tube festif du groupe toulousain Zebda."
+    },
+    {
+      "id": "LIT039",
+      "challenge": "lost_in_translation",
+      "number": 39,
+      "trackId": "trk_287",
+      "clue": "Monday in the Sunshine",
+      "hint": "Claude François imagine un lundi bien plus agréable que d'habitude."
+    }
+  ],
+  "beat_the_clock": [
+    {
+      "id": "BTC001",
+      "challenge": "beat_the_clock",
+      "number": 1,
+      "theme": "Une chanson avec un prénom dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC002",
+      "challenge": "beat_the_clock",
+      "number": 2,
+      "theme": "Une chanson avec une couleur dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC003",
+      "challenge": "beat_the_clock",
+      "number": 3,
+      "theme": "Une chanson sortie dans les années 80",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC004",
+      "challenge": "beat_the_clock",
+      "number": 4,
+      "theme": "Une chanson avec le mot LOVE dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC005",
+      "challenge": "beat_the_clock",
+      "number": 5,
+      "theme": "Une chanson qui parle de danser",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC006",
+      "challenge": "beat_the_clock",
+      "number": 6,
+      "theme": "Une chanson avec un chiffre dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC007",
+      "challenge": "beat_the_clock",
+      "number": 7,
+      "theme": "Une chanson avec un animal dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC008",
+      "challenge": "beat_the_clock",
+      "number": 8,
+      "theme": "Une chanson avec un nom de ville dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC009",
+      "challenge": "beat_the_clock",
+      "number": 9,
+      "theme": "Une chanson avec un pays dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC010",
+      "challenge": "beat_the_clock",
+      "number": 10,
+      "theme": "Une chanson avec le mot NIGHT dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC011",
+      "challenge": "beat_the_clock",
+      "number": 11,
+      "theme": "Une chanson avec le mot BABY dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC012",
+      "challenge": "beat_the_clock",
+      "number": 12,
+      "theme": "Une chanson avec le mot HEART dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC013",
+      "challenge": "beat_the_clock",
+      "number": 13,
+      "theme": "Une chanson avec le mot GIRL dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC014",
+      "challenge": "beat_the_clock",
+      "number": 14,
+      "theme": "Une chanson avec le mot BOY dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC015",
+      "challenge": "beat_the_clock",
+      "number": 15,
+      "theme": "Une chanson avec le mot FIRE dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC016",
+      "challenge": "beat_the_clock",
+      "number": 16,
+      "theme": "Une chanson avec le mot SUN dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC017",
+      "challenge": "beat_the_clock",
+      "number": 17,
+      "theme": "Une chanson avec le mot RAIN dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC018",
+      "challenge": "beat_the_clock",
+      "number": 18,
+      "theme": "Une chanson avec le mot MUSIC dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC019",
+      "challenge": "beat_the_clock",
+      "number": 19,
+      "theme": "Une chanson avec le mot TIME dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC020",
+      "challenge": "beat_the_clock",
+      "number": 20,
+      "theme": "Une chanson avec le mot WORLD dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC021",
+      "challenge": "beat_the_clock",
+      "number": 21,
+      "theme": "Une chanson française des années 80",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC022",
+      "challenge": "beat_the_clock",
+      "number": 22,
+      "theme": "Une chanson française des années 2000",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC023",
+      "challenge": "beat_the_clock",
+      "number": 23,
+      "theme": "Une chanson sortie après 2020",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC024",
+      "challenge": "beat_the_clock",
+      "number": 24,
+      "theme": "Une chanson sortie avant 1980",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC025",
+      "challenge": "beat_the_clock",
+      "number": 25,
+      "theme": "Une chanson d'un groupe britannique",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC026",
+      "challenge": "beat_the_clock",
+      "number": 26,
+      "theme": "Une chanson d'un artiste ou groupe français",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC027",
+      "challenge": "beat_the_clock",
+      "number": 27,
+      "theme": "Une chanson interprétée par une femme en solo",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC028",
+      "challenge": "beat_the_clock",
+      "number": 28,
+      "theme": "Une chanson interprétée par un homme en solo",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC029",
+      "challenge": "beat_the_clock",
+      "number": 29,
+      "theme": "Une chanson avec un duo homme-femme",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC030",
+      "challenge": "beat_the_clock",
+      "number": 30,
+      "theme": "Une chanson issue d'un film",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC031",
+      "challenge": "beat_the_clock",
+      "number": 31,
+      "theme": "Une chanson utilisée dans une publicité",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC032",
+      "challenge": "beat_the_clock",
+      "number": 32,
+      "theme": "Une chanson avec un sifflement reconnaissable",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC033",
+      "challenge": "beat_the_clock",
+      "number": 33,
+      "theme": "Une chanson avec un rire dans les paroles ou l'intro",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC034",
+      "challenge": "beat_the_clock",
+      "number": 34,
+      "theme": "Une chanson avec un solo de guitare mémorable",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC035",
+      "challenge": "beat_the_clock",
+      "number": 35,
+      "theme": "Une chanson avec un riff de basse reconnaissable",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC036",
+      "challenge": "beat_the_clock",
+      "number": 36,
+      "theme": "Une chanson avec un « Oh oh oh » dans le refrain",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC037",
+      "challenge": "beat_the_clock",
+      "number": 37,
+      "theme": "Une chanson avec des paroles en espagnol",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC038",
+      "challenge": "beat_the_clock",
+      "number": 38,
+      "theme": "Une chanson avec des paroles en anglais et en français",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC039",
+      "challenge": "beat_the_clock",
+      "number": 39,
+      "theme": "Une chanson qui mentionne l'été",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC040",
+      "challenge": "beat_the_clock",
+      "number": 40,
+      "theme": "Une chanson qui parle de rupture",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC041",
+      "challenge": "beat_the_clock",
+      "number": 41,
+      "theme": "Une chanson qui parle de fête",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC042",
+      "challenge": "beat_the_clock",
+      "number": 42,
+      "theme": "Une chanson qui mentionne l'alcool",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC043",
+      "challenge": "beat_the_clock",
+      "number": 43,
+      "theme": "Une chanson avec un titre composé d'un seul mot",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC044",
+      "challenge": "beat_the_clock",
+      "number": 44,
+      "theme": "Une chanson avec un titre de trois mots exactement",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC045",
+      "challenge": "beat_the_clock",
+      "number": 45,
+      "theme": "Une chanson dont le titre est une question",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC046",
+      "challenge": "beat_the_clock",
+      "number": 46,
+      "theme": "Une chanson dont le titre contient un prénom féminin",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC047",
+      "challenge": "beat_the_clock",
+      "number": 47,
+      "theme": "Une chanson dont le titre contient un prénom masculin",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC048",
+      "challenge": "beat_the_clock",
+      "number": 48,
+      "theme": "Une chanson avec un instrument dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC049",
+      "challenge": "beat_the_clock",
+      "number": 49,
+      "theme": "Une chanson avec un jour de la semaine dans le titre",
+      "durationSeconds": 30
+    },
+    {
+      "id": "BTC050",
+      "challenge": "beat_the_clock",
+      "number": 50,
+      "theme": "Une chanson avec le mot DANCE dans le titre",
+      "durationSeconds": 30
+    }
+  ],
+  "final_bet": [
+    {
+      "id": "FB001",
+      "challenge": "final_bet",
+      "number": 1,
+      "trackId": "trk_043"
+    },
+    {
+      "id": "FB002",
+      "challenge": "final_bet",
+      "number": 2,
+      "trackId": "trk_044"
+    },
+    {
+      "id": "FB003",
+      "challenge": "final_bet",
+      "number": 3,
+      "trackId": "trk_045"
+    }
+  ],
+  "five_seconds": [
+    {
+      "id": "5SEC001",
+      "challenge": "five_seconds",
+      "number": 1,
+      "trackId": "trk_046",
+      "hint": "Thème du film Rocky III."
+    },
+    {
+      "id": "5SEC002",
+      "challenge": "five_seconds",
+      "number": 2,
+      "trackId": "trk_047",
+      "hint": "Groupe funk/disco américain, le titre est un mois de l'année."
+    },
+    {
+      "id": "5SEC003",
+      "challenge": "five_seconds",
+      "number": 3,
+      "trackId": "trk_048",
+      "hint": "Groupe de hard rock australien, riff de guitare électrique très reconnaissable."
+    },
+    {
+      "id": "5SEC004",
+      "challenge": "five_seconds",
+      "number": 4,
+      "trackId": "trk_049",
+      "hint": "Tube dansant des années 80 par une icône de la pop/soul américaine."
+    },
+    {
+      "id": "5SEC005",
+      "challenge": "five_seconds",
+      "number": 5,
+      "trackId": "trk_050",
+      "hint": "Chanson d'aérobic des années 80, parfois censurée à la radio à l'époque."
+    }
+  ],
+  "cover_original": [
+    {
+      "id": "CO001",
+      "challenge": "cover_original",
+      "number": 1,
+      "trackId": "trk_063",
+      "extra": {
+        "original": "Leonard Cohen"
+      },
+      "hint": "La reprise est très épurée, voix et guitare."
+    },
+    {
+      "id": "CO002",
+      "challenge": "cover_original",
+      "number": 2,
+      "trackId": "trk_064",
+      "extra": {
+        "original": "Dolly Parton"
+      },
+      "hint": "Tirée de la BO d'un film avec Kevin Costner."
+    },
+    {
+      "id": "CO003",
+      "challenge": "cover_original",
+      "number": 3,
+      "trackId": "trk_065",
+      "extra": {
+        "original": "Prince"
+      },
+      "hint": "Chanteuse irlandaise, clip très célèbre en gros plan."
+    },
+    {
+      "id": "CO004",
+      "challenge": "cover_original",
+      "number": 4,
+      "trackId": "trk_066",
+      "extra": {
+        "original": "The Isley Brothers"
+      },
+      "hint": "Groupe britannique des années 60."
+    },
+    {
+      "id": "CO005",
+      "challenge": "cover_original",
+      "number": 5,
+      "trackId": "trk_067",
+      "extra": {
+        "original": "Otis Redding"
+      },
+      "hint": "La Reine de la Soul."
+    },
+    {
+      "id": "CO006",
+      "challenge": "cover_original",
+      "number": 6,
+      "trackId": "trk_319",
+      "extra": {
+        "original": "The Arrows"
+      },
+      "hint": "Un hymne rock popularisé au début des années 80 par une chanteuse américaine."
+    },
+    {
+      "id": "CO007",
+      "challenge": "cover_original",
+      "number": 7,
+      "trackId": "trk_320",
+      "extra": {
+        "original": "Robert Hazard"
+      },
+      "hint": "Un tube pop coloré des années 80, à l'origine écrit et chanté par un homme."
+    },
+    {
+      "id": "CO008",
+      "challenge": "cover_original",
+      "number": 8,
+      "trackId": "trk_321",
+      "extra": {
+        "original": "Neil Diamond"
+      },
+      "hint": "Une version reggae d'un titre écrit par un célèbre auteur-compositeur américain."
+    },
+    {
+      "id": "CO009",
+      "challenge": "cover_original",
+      "number": 9,
+      "trackId": "trk_322",
+      "extra": {
+        "original": "Gloria Jones"
+      },
+      "hint": "Un classique synth-pop des années 80, repris d'un morceau soul des années 60."
+    },
+    {
+      "id": "CO010",
+      "challenge": "cover_original",
+      "number": 10,
+      "trackId": "trk_323",
+      "extra": {
+        "original": "David Bowie"
+      },
+      "hint": "Jouée en acoustique lors d'une session live devenue culte."
+    },
+    {
+      "id": "CO011",
+      "challenge": "cover_original",
+      "number": 11,
+      "trackId": "trk_324",
+      "extra": {
+        "original": "Lori Lieberman"
+      },
+      "hint": "Lauryn Hill chante cette version devenue un grand succès dans les années 90."
+    },
+    {
+      "id": "CO012",
+      "challenge": "cover_original",
+      "number": 12,
+      "trackId": "trk_325",
+      "extra": {
+        "original": "Brenda Lee"
+      },
+      "hint": "Une version synth-pop d'une chanson country reprise par plusieurs artistes."
+    },
+    {
+      "id": "CO013",
+      "challenge": "cover_original",
+      "number": 13,
+      "trackId": "trk_326",
+      "extra": {
+        "original": "Elvis Costello"
+      },
+      "hint": "Le compositeur original est aussi connu comme chanteur britannique."
+    },
+    {
+      "id": "CO014",
+      "challenge": "cover_original",
+      "number": 14,
+      "trackId": "trk_327",
+      "extra": {
+        "original": "The Kinks"
+      },
+      "hint": "Un riff de guitare explosif signé à l'origine par un groupe britannique."
+    },
+    {
+      "id": "CO015",
+      "challenge": "cover_original",
+      "number": 15,
+      "trackId": "trk_328",
+      "extra": {
+        "original": "The Crickets"
+      },
+      "hint": "Un classique rock dont l'une des versions les plus connues est punk."
+    },
+    {
+      "id": "CO016",
+      "challenge": "cover_original",
+      "number": 16,
+      "trackId": "trk_329",
+      "extra": {
+        "original": "Bruce Springsteen"
+      },
+      "hint": "Une chanson née d'une collaboration entre deux grandes figures du rock américain."
+    },
+    {
+      "id": "CO017",
+      "challenge": "cover_original",
+      "number": 17,
+      "trackId": "trk_330",
+      "extra": {
+        "original": "Tommy James and the Shondells"
+      },
+      "hint": "Un hit pop des années 80 qui existait déjà dans les années 60."
+    },
+    {
+      "id": "CO018",
+      "challenge": "cover_original",
+      "number": 18,
+      "trackId": "trk_331",
+      "extra": {
+        "original": "Shocking Blue"
+      },
+      "hint": "Un groupe féminin britannique reprend un tube néerlandais."
+    },
+    {
+      "id": "CO019",
+      "challenge": "cover_original",
+      "number": 19,
+      "trackId": "trk_332",
+      "extra": {
+        "original": "Martha and the Vandellas"
+      },
+      "hint": "Deux légendes du rock reprennent un classique de la Motown."
+    },
+    {
+      "id": "CO020",
+      "challenge": "cover_original",
+      "number": 20,
+      "trackId": "trk_333",
+      "extra": {
+        "original": "Carl Perkins"
+      },
+      "hint": "Un classique rockabilly enregistré à l'origine par un autre pionnier du rock."
+    },
+    {
+      "id": "CO021",
+      "challenge": "cover_original",
+      "number": 21,
+      "trackId": "trk_334",
+      "extra": {
+        "original": "Bob Dylan"
+      },
+      "hint": "Une guitare électrique légendaire transforme une chanson d'un auteur folk."
+    },
+    {
+      "id": "CO022",
+      "challenge": "cover_original",
+      "number": 22,
+      "trackId": "trk_335",
+      "extra": {
+        "original": "Bob Dylan"
+      },
+      "hint": "Une version hard rock d'une chanson créée pour un western."
+    },
+    {
+      "id": "CO023",
+      "challenge": "cover_original",
+      "number": 23,
+      "trackId": "trk_336",
+      "extra": {
+        "original": "Paul McCartney & Wings"
+      },
+      "hint": "Une chanson de James Bond revisitée avec des guitares plus lourdes."
+    },
+    {
+      "id": "CO024",
+      "challenge": "cover_original",
+      "number": 24,
+      "trackId": "trk_337",
+      "extra": {
+        "original": "Slade"
+      },
+      "hint": "Un groupe de glam rock britannique est à l'origine de ce refrain explosif."
+    },
+    {
+      "id": "CO025",
+      "challenge": "cover_original",
+      "number": 25,
+      "trackId": "trk_338",
+      "extra": {
+        "original": "Tommy James and the Shondells"
+      },
+      "hint": "Un chanteur punk-rock reprend un tube des années 60."
+    },
+    {
+      "id": "CO026",
+      "challenge": "cover_original",
+      "number": 26,
+      "trackId": "trk_339",
+      "extra": {
+        "original": "—"
+      },
+      "hint": "Attention : ici, il ne s'agit pas d'une reprise célèbre identifiée ; remplacez par un autre titre si vous exigez un original incontestable."
+    },
+    {
+      "id": "CO027",
+      "challenge": "cover_original",
+      "number": 27,
+      "trackId": "trk_340",
+      "extra": {
+        "original": "The Paragons"
+      },
+      "hint": "Blondie transforme un morceau jamaïcain en tube pop."
+    },
+    {
+      "id": "CO028",
+      "challenge": "cover_original",
+      "number": 28,
+      "trackId": "trk_341",
+      "extra": {
+        "original": "The Ronettes"
+      },
+      "hint": "Un groupe californien reprend une chanson produite par le célèbre duo d'auteurs-compositeurs de la pop américaine."
+    },
+    {
+      "id": "CO029",
+      "challenge": "cover_original",
+      "number": 29,
+      "trackId": "trk_342",
+      "extra": {
+        "original": "The Marvelettes"
+      },
+      "hint": "Un classique de la Motown repris par plusieurs groupes célèbres."
+    },
+    {
+      "id": "CO030",
+      "challenge": "cover_original",
+      "number": 30,
+      "trackId": "trk_343",
+      "extra": {
+        "original": "The Supremes"
+      },
+      "hint": "Une version synth-pop des années 80 d'un hit des Supremes."
+    },
+    {
+      "id": "CO031",
+      "challenge": "cover_original",
+      "number": 31,
+      "trackId": "trk_344",
+      "extra": {
+        "original": "Petula Clark"
+      },
+      "hint": "Une ancienne chanson pop britannique revisitée par une ex-Spice Girl."
+    },
+    {
+      "id": "CO032",
+      "challenge": "cover_original",
+      "number": 32,
+      "trackId": "trk_345",
+      "extra": {
+        "original": "Gladys Knight & the Pips"
+      },
+      "hint": "Le chanteur de soul en a fait une version devenue légendaire ; plusieurs artistes l'avaient enregistrée auparavant."
+    },
+    {
+      "id": "CO033",
+      "challenge": "cover_original",
+      "number": 33,
+      "trackId": "trk_346",
+      "extra": {
+        "original": "Kurt Weill / Bertolt Brecht"
+      },
+      "hint": "Un standard issu à l'origine d'une œuvre théâtrale allemande."
+    },
+    {
+      "id": "CO034",
+      "challenge": "cover_original",
+      "number": 34,
+      "trackId": "trk_347",
+      "extra": {
+        "original": "Claude François / Jacques Revaux"
+      },
+      "hint": "La version anglaise est devenue emblématique, mais la mélodie vient d'une chanson française."
+    },
+    {
+      "id": "CO035",
+      "challenge": "cover_original",
+      "number": 35,
+      "trackId": "trk_348",
+      "extra": {
+        "original": "Claude François / Jacques Revaux"
+      },
+      "hint": "La chanson française à l'origine de My Way."
+    },
+    {
+      "id": "CO036",
+      "challenge": "cover_original",
+      "number": 36,
+      "trackId": "trk_349",
+      "extra": {
+        "original": "The Animals (version anglaise connue) / traditionnel"
+      },
+      "hint": "Une adaptation française d'un air folk traditionnel popularisé par un groupe britannique."
+    },
+    {
+      "id": "CO037",
+      "challenge": "cover_original",
+      "number": 37,
+      "trackId": "trk_350",
+      "extra": {
+        "original": "Traditionnel mexicain"
+      },
+      "hint": "Un classique festif issu du folklore mexicain, remis au goût du jour pour un film."
+    },
+    {
+      "id": "CO038",
+      "challenge": "cover_original",
+      "number": 38,
+      "trackId": "trk_351",
+      "extra": {
+        "original": "Todd Duncan"
+      },
+      "hint": "Une ballade rendue célèbre par une scène romantique au cinéma."
+    },
+    {
+      "id": "CO039",
+      "challenge": "cover_original",
+      "number": 39,
+      "trackId": "trk_352",
+      "extra": {
+        "original": "Ben E. King"
+      },
+      "hint": "Un ancien standard soul repris par l'un des Beatles en solo."
+    },
+    {
+      "id": "CO040",
+      "challenge": "cover_original",
+      "number": 40,
+      "trackId": "trk_353",
+      "extra": {
+        "original": "Bob Dylan"
+      },
+      "hint": "Un groupe de folk-rock transforme une chanson folk en succès électrique."
+    },
+    {
+      "id": "CO041",
+      "challenge": "cover_original",
+      "number": 41,
+      "trackId": "trk_354",
+      "extra": {
+        "original": "Richard Berry"
+      },
+      "hint": "Un morceau garage-rock célèbre pour son chant difficile à comprendre."
+    },
+    {
+      "id": "CO042",
+      "challenge": "cover_original",
+      "number": 42,
+      "trackId": "trk_355",
+      "extra": {
+        "original": "Fleetwood Mac"
+      },
+      "hint": "Le guitariste latino-américain reprend un titre d'un groupe britannique avant sa grande période blues-rock."
+    },
+    {
+      "id": "CO043",
+      "challenge": "cover_original",
+      "number": 43,
+      "trackId": "trk_356",
+      "extra": {
+        "original": "Howlin' Wolf"
+      },
+      "hint": "Un morceau de blues repris par un groupe de hard rock américain."
+    },
+    {
+      "id": "CO044",
+      "challenge": "cover_original",
+      "number": 44,
+      "trackId": "trk_357",
+      "extra": {
+        "original": "Erma Franklin"
+      },
+      "hint": "Une chanteuse rock en livre une interprétation devenue mythique à la fin des années 60."
+    },
+    {
+      "id": "CO045",
+      "challenge": "cover_original",
+      "number": 45,
+      "trackId": "trk_358",
+      "extra": {
+        "original": "Roger Miller"
+      },
+      "hint": "La version la plus célèbre est celle d'une chanteuse rock, publiée après sa mort."
+    },
+    {
+      "id": "CO046",
+      "challenge": "cover_original",
+      "number": 46,
+      "trackId": "trk_359",
+      "extra": {
+        "original": "Tracy Chapman"
+      },
+      "hint": "Un chanteur country contemporain reprend le hit folk-rock des années 80."
+    },
+    {
+      "id": "CO047",
+      "challenge": "cover_original",
+      "number": 47,
+      "trackId": "trk_360",
+      "extra": {
+        "original": "Dolly Parton"
+      },
+      "hint": "Un duo rock minimaliste reprend une chanson country emblématique."
+    },
+    {
+      "id": "CO048",
+      "challenge": "cover_original",
+      "number": 48,
+      "trackId": "trk_361",
+      "extra": {
+        "original": "Ednaswap"
+      },
+      "hint": "Un tube pop des années 90 qui était déjà sorti dans une version alternative."
+    },
+    {
+      "id": "CO049",
+      "challenge": "cover_original",
+      "number": 49,
+      "trackId": "trk_362",
+      "extra": {
+        "original": "Robyn"
+      },
+      "hint": "Une version piano-voix d'un tube électro-pop suédois."
+    },
+    {
+      "id": "CO050",
+      "challenge": "cover_original",
+      "number": 50,
+      "trackId": "trk_363",
+      "extra": {
+        "original": "Tears for Fears"
+      },
+      "hint": "Version mélancolique au piano popularisée par le film Donnie Darko."
+    },
+    {
+      "id": "CO051",
+      "challenge": "cover_original",
+      "number": 51,
+      "trackId": "trk_364",
+      "extra": {
+        "original": "Eurythmics"
+      },
+      "hint": "Une reprise sombre et industrielle d'un tube synth-pop."
+    },
+    {
+      "id": "CO052",
+      "challenge": "cover_original",
+      "number": 52,
+      "trackId": "trk_365",
+      "extra": {
+        "original": "Depeche Mode"
+      },
+      "hint": "La légende country transforme un tube électro en morceau dépouillé."
+    },
+    {
+      "id": "CO053",
+      "challenge": "cover_original",
+      "number": 53,
+      "trackId": "trk_366",
+      "extra": {
+        "original": "Depeche Mode"
+      },
+      "hint": "Version metal d'un classique électro britannique."
+    },
+    {
+      "id": "CO054",
+      "challenge": "cover_original",
+      "number": 54,
+      "trackId": "trk_367",
+      "extra": {
+        "original": "Toto"
+      },
+      "hint": "Le groupe Weezer reprend l'hymne rock des années 80."
+    },
+    {
+      "id": "CO055",
+      "challenge": "cover_original",
+      "number": 55,
+      "trackId": "trk_368",
+      "extra": {
+        "original": "The Four Seasons"
+      },
+      "hint": "La version rock italienne est devenue virale bien des décennies après l'original."
+    },
+    {
+      "id": "CO056",
+      "challenge": "cover_original",
+      "number": 56,
+      "trackId": "trk_369",
+      "extra": {
+        "original": "The Zutons"
+      },
+      "hint": "Amy Winehouse chante sur cette version soul d'un morceau indie britannique."
+    },
+    {
+      "id": "CO057",
+      "challenge": "cover_original",
+      "number": 57,
+      "trackId": "trk_370",
+      "extra": {
+        "original": "Simon & Garfunkel"
+      },
+      "hint": "Une reprise rock puissante d'un classique folk des années 60."
+    },
+    {
+      "id": "CO058",
+      "challenge": "cover_original",
+      "number": 58,
+      "trackId": "trk_371",
+      "extra": {
+        "original": "Nine Inch Nails"
+      },
+      "hint": "Johnny Cash reprend un titre industriel dans une version bouleversante."
+    },
+    {
+      "id": "CO059",
+      "challenge": "cover_original",
+      "number": 59,
+      "trackId": "trk_372",
+      "extra": {
+        "original": "Gotye feat. Kimbra"
+      },
+      "hint": "Une reprise virale réalisée avec un seul instrument partagé par plusieurs musiciens."
+    },
+    {
+      "id": "CO060",
+      "challenge": "cover_original",
+      "number": 60,
+      "trackId": "trk_373",
+      "extra": {
+        "original": "a-ha"
+      },
+      "hint": "Le tube pop norvégien passe en version ska-punk."
+    },
+    {
+      "id": "CO061",
+      "challenge": "cover_original",
+      "number": 61,
+      "trackId": "trk_374",
+      "extra": {
+        "original": "New Order"
+      },
+      "hint": "Un classique dance des années 80 revisité en rock industriel."
+    },
+    {
+      "id": "CO062",
+      "challenge": "cover_original",
+      "number": 62,
+      "trackId": "trk_375",
+      "extra": {
+        "original": "Elvis Presley"
+      },
+      "hint": "Une version reggae du classique associé au film Blue Hawaii."
+    },
+    {
+      "id": "CO063",
+      "challenge": "cover_original",
+      "number": 63,
+      "trackId": "trk_376",
+      "extra": {
+        "original": "Fleetwood Mac"
+      },
+      "hint": "Le groupe irlandais reprend un classique californien des années 70."
+    },
+    {
+      "id": "CO064",
+      "challenge": "cover_original",
+      "number": 64,
+      "trackId": "trk_377",
+      "extra": {
+        "original": "The Doors"
+      },
+      "hint": "Une version latino-acoustique d'un classique psychédélique."
+    },
+    {
+      "id": "CO065",
+      "challenge": "cover_original",
+      "number": 65,
+      "trackId": "trk_378",
+      "extra": {
+        "original": "Maggie Reilly"
+      },
+      "hint": "Le hit dance des années 2000 reprend une chanson pop des années 90."
+    },
+    {
+      "id": "CO066",
+      "challenge": "cover_original",
+      "number": 66,
+      "trackId": "trk_379",
+      "extra": {
+        "original": "Mylène Farmer"
+      },
+      "hint": "La version dance belge remet au goût du jour un hymne français des années 90."
+    },
+    {
+      "id": "CO067",
+      "challenge": "cover_original",
+      "number": 67,
+      "trackId": "trk_380",
+      "extra": {
+        "original": "Desireless"
+      },
+      "hint": "Une reprise dance d'un tube français très marqué années 80."
+    },
+    {
+      "id": "CO068",
+      "challenge": "cover_original",
+      "number": 68,
+      "trackId": "trk_381",
+      "extra": {
+        "original": "France Gall"
+      },
+      "hint": "Version dance d'un grand succès de la chanson française."
+    },
+    {
+      "id": "CO069",
+      "challenge": "cover_original",
+      "number": 69,
+      "trackId": "trk_382",
+      "extra": {
+        "original": "Alizée"
+      },
+      "hint": "Relecture décalée d'un tube pop français du début des années 2000."
+    },
+    {
+      "id": "CO070",
+      "challenge": "cover_original",
+      "number": 70,
+      "trackId": "trk_383",
+      "extra": {
+        "original": "The White Stripes"
+      },
+      "hint": "Une version soul d'un riff de stade que tout le monde connaît."
+    },
+    {
+      "id": "CO071",
+      "challenge": "cover_original",
+      "number": 71,
+      "trackId": "trk_384",
+      "extra": {
+        "original": "Britney Spears"
+      },
+      "hint": "Une reprise acoustique et douce d'un tube pop très énergique."
+    },
+    {
+      "id": "CO072",
+      "challenge": "cover_original",
+      "number": 72,
+      "trackId": "trk_385",
+      "extra": {
+        "original": "King Harvest"
+      },
+      "hint": "Le morceau feel-good des années 2000 est en fait une reprise."
+    },
+    {
+      "id": "CO073",
+      "challenge": "cover_original",
+      "number": 73,
+      "trackId": "trk_386",
+      "extra": {
+        "original": "Harold Melvin & the Blue Notes"
+      },
+      "hint": "Une version disco-pop très connue d'un morceau soul."
+    }
+  ],
+  "one_doesnt_belong": [
+    {
+      "id": "ODB001",
+      "challenge": "one_doesnt_belong",
+      "number": 1,
+      "trackId": "trk_068",
+      "options": [
+        {
+          "label": "Nirvana · Smells Like Teen Spirit (1991)"
+        },
+        {
+          "label": "Spice Girls · Wannabe (1996)"
+        },
+        {
+          "label": "TLC · No Scrubs (1999)"
+        },
+        {
+          "label": "Dua Lipa · Levitating (2020)"
+        }
+      ],
+      "correctIndex": 3,
+      "criterion": "Décennie de sortie"
+    },
+    {
+      "id": "ODB002",
+      "challenge": "one_doesnt_belong",
+      "number": 2,
+      "trackId": "trk_069",
+      "options": [
+        {
+          "label": "Stromae"
+        },
+        {
+          "label": "Zaz"
+        },
+        {
+          "label": "Ed Sheeran"
+        },
+        {
+          "label": "Édith Piaf"
+        }
+      ],
+      "correctIndex": 2,
+      "criterion": "Artistes francophones"
+    },
+    {
+      "id": "ODB003",
+      "challenge": "one_doesnt_belong",
+      "number": 3,
+      "trackId": "trk_070",
+      "options": [
+        {
+          "label": "AC/DC · Thunderstruck"
+        },
+        {
+          "label": "Metallica · Enter Sandman"
+        },
+        {
+          "label": "Guns N' Roses · Sweet Child O' Mine"
+        },
+        {
+          "label": "Whitney Houston · I Wanna Dance with Somebody"
+        }
+      ],
+      "correctIndex": 3,
+      "criterion": "Genre musical (rock vs pop)"
+    },
+    {
+      "id": "ODB004",
+      "challenge": "one_doesnt_belong",
+      "number": 4,
+      "trackId": "trk_071",
+      "options": [
+        {
+          "label": "Queen · Bohemian Rhapsody (1975)"
+        },
+        {
+          "label": "Eagles · Hotel California (1976)"
+        },
+        {
+          "label": "ABBA · Dancing Queen (1976)"
+        },
+        {
+          "label": "Adele · Rolling in the Deep (2010)"
+        }
+      ],
+      "correctIndex": 3,
+      "criterion": "Décennie de sortie"
+    },
+    {
+      "id": "ODB005",
+      "challenge": "one_doesnt_belong",
+      "number": 5,
+      "trackId": "trk_072",
+      "options": [
+        {
+          "label": "Ed Sheeran (solo)"
+        },
+        {
+          "label": "Adele (solo)"
+        },
+        {
+          "label": "Beyoncé (solo)"
+        },
+        {
+          "label": "Queen (groupe)"
+        }
+      ],
+      "correctIndex": 3,
+      "criterion": "Artiste solo ou groupe"
+    }
+  ],
+  "musical_dna": [
+    {
+      "id": "DNA001",
+      "challenge": "musical_dna",
+      "number": 1,
+      "trackIds": [
+        "trk_073",
+        "trk_074",
+        "trk_075"
+      ],
+      "link": "Toutes produites/écrites par Max Martin",
+      "hint": "Un producteur suédois derrière d'innombrables tubes pop."
+    },
+    {
+      "id": "DNA002",
+      "challenge": "musical_dna",
+      "number": 2,
+      "trackIds": [
+        "trk_076",
+        "trk_077",
+        "trk_078"
+      ],
+      "link": "Toutes tirées de bandes originales de films Disney",
+      "hint": "Pense dessins animés."
+    },
+    {
+      "id": "DNA003",
+      "challenge": "musical_dna",
+      "number": 3,
+      "trackIds": [
+        "trk_079",
+        "trk_080",
+        "trk_081"
+      ],
+      "link": "Toutes sorties en 1984",
+      "hint": "Une année charnière pour la pop."
+    },
+    {
+      "id": "DNA004",
+      "challenge": "musical_dna",
+      "number": 4,
+      "trackIds": [
+        "trk_082",
+        "trk_083",
+        "trk_084"
+      ],
+      "link": "Toutes numéro 1 au Billboard Hot 100",
+      "hint": "Des tubes qui ont dominé les classements US."
+    }
+  ],
+  "music_battle": [
+    {
+      "id": "BATT001",
+      "challenge": "music_battle",
+      "number": 1,
+      "trackId": "trk_097",
+      "hint": ""
+    },
+    {
+      "id": "BATT002",
+      "challenge": "music_battle",
+      "number": 2,
+      "trackId": "trk_098",
+      "hint": ""
+    },
+    {
+      "id": "BATT003",
+      "challenge": "music_battle",
+      "number": 3,
+      "trackId": "trk_099",
+      "hint": ""
+    },
+    {
+      "id": "BATT004",
+      "challenge": "music_battle",
+      "number": 4,
+      "trackId": "trk_100",
+      "hint": ""
+    },
+    {
+      "id": "BATT005",
+      "challenge": "music_battle",
+      "number": 5,
+      "trackId": "trk_101",
+      "hint": ""
+    },
+    {
+      "id": "BATT006",
+      "challenge": "music_battle",
+      "number": 6,
+      "trackId": "trk_102",
+      "hint": ""
+    }
+  ],
+  "forbidden_song": [
+    {
+      "id": "FS001",
+      "challenge": "forbidden_song",
+      "number": 1,
+      "trackId": "trk_103",
+      "wordPool": [
+        "Love",
+        "Heart",
+        "Baby",
+        "Night",
+        "Girl",
+        "Fire"
+      ]
+    },
+    {
+      "id": "FS002",
+      "challenge": "forbidden_song",
+      "number": 2,
+      "trackId": "trk_104",
+      "wordPool": [
+        "Dance",
+        "Queen",
+        "Night",
+        "Young",
+        "Music",
+        "Life"
+      ]
+    },
+    {
+      "id": "FS003",
+      "challenge": "forbidden_song",
+      "number": 3,
+      "trackId": "trk_105",
+      "wordPool": [
+        "Complicated",
+        "Life",
+        "Alone",
+        "Real",
+        "Time",
+        "Change"
+      ]
+    },
+    {
+      "id": "FS004",
+      "challenge": "forbidden_song",
+      "number": 4,
+      "trackId": "trk_106",
+      "wordPool": [
+        "Halo",
+        "Angel",
+        "Light",
+        "Heaven",
+        "Shine",
+        "Glow"
+      ]
+    },
+    {
+      "id": "FS005",
+      "challenge": "forbidden_song",
+      "number": 5,
+      "trackId": "trk_107",
+      "wordPool": [
+        "Fireflies",
+        "Light",
+        "Sky",
+        "Dream",
+        "Night",
+        "Stars"
+      ]
+    }
+  ],
+  "finish_the_song": [
+    {
+      "id": "FINI001",
+      "challenge": "finish_the_song",
+      "number": 1,
+      "trackId": "trk_108",
+      "hint": ""
+    },
+    {
+      "id": "FINI002",
+      "challenge": "finish_the_song",
+      "number": 2,
+      "trackId": "trk_109",
+      "hint": ""
+    },
+    {
+      "id": "FINI003",
+      "challenge": "finish_the_song",
+      "number": 3,
+      "trackId": "trk_110",
+      "hint": ""
+    },
+    {
+      "id": "FINI004",
+      "challenge": "finish_the_song",
+      "number": 4,
+      "trackId": "trk_111",
+      "hint": ""
+    },
+    {
+      "id": "FINI005",
+      "challenge": "finish_the_song",
+      "number": 5,
+      "trackId": "trk_112",
+      "hint": ""
+    }
+  ],
+  "the_chain": [],
+  "spotify_roulette": [
+    {
+      "id": "QUIC001",
+      "challenge": "spotify_roulette",
+      "number": 1,
+      "trackId": "trk_136",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 2,
+      "criterion": "",
+      "hint": "Groupe de rock américain culte des années 2000, de retour avec une nouvelle chanteuse."
+    },
+    {
+      "id": "QUIC002",
+      "challenge": "spotify_roulette",
+      "number": 2,
+      "trackId": "trk_137",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 2,
+      "criterion": "",
+      "hint": "Tube pop sorti en 2025, dans la lignée théâtrale de l’artiste."
+    },
+    {
+      "id": "QUIC003",
+      "challenge": "spotify_roulette",
+      "number": 3,
+      "trackId": "trk_138",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 2,
+      "criterion": "",
+      "hint": "Duo américain qui mélange rap, rock et électro."
+    },
+    {
+      "id": "QUIC004",
+      "challenge": "spotify_roulette",
+      "number": 4,
+      "trackId": "trk_139",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 2,
+      "criterion": "",
+      "hint": "Titre français tiré d’une série animée à succès sur Netflix."
+    },
+    {
+      "id": "QUIC005",
+      "challenge": "spotify_roulette",
+      "number": 5,
+      "trackId": "trk_140",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 1,
+      "criterion": "",
+      "hint": "Artiste révélé dans une émission musicale française."
+    },
+    {
+      "id": "QUIC006",
+      "challenge": "spotify_roulette",
+      "number": 6,
+      "trackId": "trk_141",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 1,
+      "criterion": "",
+      "hint": "Rap français, morceau éponyme d’un prénom."
+    },
+    {
+      "id": "QUIC007",
+      "challenge": "spotify_roulette",
+      "number": 7,
+      "trackId": "trk_142",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 1,
+      "criterion": "",
+      "hint": "Révélation de la chanson française, entre électro et poésie."
+    },
+    {
+      "id": "QUIC008",
+      "challenge": "spotify_roulette",
+      "number": 8,
+      "trackId": "trk_143",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 1,
+      "criterion": "",
+      "hint": "Chanteuse française à la voix reconnaissable, style pop indé."
+    },
+    {
+      "id": "QUIC009",
+      "challenge": "spotify_roulette",
+      "number": 9,
+      "trackId": "trk_144",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 1,
+      "criterion": "",
+      "hint": "Rap français."
+    },
+    {
+      "id": "QUIC010",
+      "challenge": "spotify_roulette",
+      "number": 10,
+      "trackId": "trk_145",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 1,
+      "criterion": "",
+      "hint": "Chanson électro-pop engagée, le titre parle d’une génération."
+    },
+    {
+      "id": "QUIC011",
+      "challenge": "spotify_roulette",
+      "number": 11,
+      "trackId": "trk_146",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 0,
+      "criterion": "",
+      "hint": "Reprise électro/techno d’un riff de guitare très célèbre."
+    },
+    {
+      "id": "QUIC012",
+      "challenge": "spotify_roulette",
+      "number": 12,
+      "trackId": "trk_147",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 0,
+      "criterion": "",
+      "hint": "Morceau électro/dance fait pour faire bouger la piste."
+    },
+    {
+      "id": "QUIC013",
+      "challenge": "spotify_roulette",
+      "number": 13,
+      "trackId": "trk_148",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 0,
+      "criterion": "",
+      "hint": "Un des tout premiers singles de la chanteuse, avant qu’elle ne devienne une star mondiale."
+    },
+    {
+      "id": "QUIC014",
+      "challenge": "spotify_roulette",
+      "number": 14,
+      "trackId": "trk_149",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 0,
+      "criterion": "",
+      "hint": "Duo de chanteuses françaises, l’une d’elles a représenté la France à l’Eurovision."
+    },
+    {
+      "id": "QUIC015",
+      "challenge": "spotify_roulette",
+      "number": 15,
+      "trackId": "trk_150",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 0,
+      "criterion": "",
+      "hint": "Duo de jumeaux écossais, tube des années 80."
+    },
+    {
+      "id": "QUIC016",
+      "challenge": "spotify_roulette",
+      "number": 16,
+      "trackId": "trk_151",
+      "options": [
+        {
+          "label": "Joueur A"
+        },
+        {
+          "label": "Joueur B"
+        },
+        {
+          "label": "Les deux"
+        }
+      ],
+      "correctIndex": 0,
+      "criterion": "",
+      "hint": "Reprise électro d’un thème classique connu, sur fond de techno."
+    }
+  ],
+  "album_detective": [
+    {
+      "id": "AD001",
+      "challenge": "album_detective",
+      "number": 1,
+      "trackId": "trk_130",
+      "hint": "L'album le plus vendu de tous les temps, produit en partie avec Quincy Jones."
+    },
+    {
+      "id": "AD002",
+      "challenge": "album_detective",
+      "number": 2,
+      "trackId": "trk_131",
+      "hint": "Un album enregistré après un changement majeur de chanteur, devenu un monument du hard rock."
+    },
+    {
+      "id": "AD003",
+      "challenge": "album_detective",
+      "number": 3,
+      "trackId": "trk_132",
+      "hint": "Un album mythique marqué par les tensions amoureuses au sein du groupe."
+    },
+    {
+      "id": "AD004",
+      "challenge": "album_detective",
+      "number": 4,
+      "trackId": "trk_133",
+      "hint": "L'album qui marque le virage pop assumé de Taylor Swift, nommé comme une année."
+    },
+    {
+      "id": "AD005",
+      "challenge": "album_detective",
+      "number": 5,
+      "trackId": "trk_134",
+      "hint": "Le troisième album studio d'Ed Sheeran, représenté par un symbole mathématique."
+    },
+    {
+      "id": "AD006",
+      "challenge": "album_detective",
+      "number": 6,
+      "trackId": "trk_288",
+      "hint": "L'album contient aussi Me Against the Music et Everytime."
+    },
+    {
+      "id": "AD007",
+      "challenge": "album_detective",
+      "number": 7,
+      "trackId": "trk_289",
+      "hint": "Le premier album solo de Beyoncé après Destiny's Child."
+    },
+    {
+      "id": "AD008",
+      "challenge": "album_detective",
+      "number": 8,
+      "trackId": "trk_290",
+      "hint": "Le premier album du groupe de Las Vegas, rempli de tubes indie rock."
+    },
+    {
+      "id": "AD009",
+      "challenge": "album_detective",
+      "number": 9,
+      "trackId": "trk_291",
+      "hint": "Un album-concept punk rock avec un cœur en forme de grenade sur la pochette."
+    },
+    {
+      "id": "AD010",
+      "challenge": "album_detective",
+      "number": 10,
+      "trackId": "trk_292",
+      "hint": "Cette chanson fait partie du même album-concept que le titre précédent."
+    },
+    {
+      "id": "AD011",
+      "challenge": "album_detective",
+      "number": 11,
+      "trackId": "trk_293",
+      "hint": "Le premier album du duo composé de CeeLo Green et Danger Mouse."
+    },
+    {
+      "id": "AD012",
+      "challenge": "album_detective",
+      "number": 12,
+      "trackId": "trk_294",
+      "hint": "Un album soul rétro dont le titre reprend une expression associée à une période sombre."
+    },
+    {
+      "id": "AD013",
+      "challenge": "album_detective",
+      "number": 13,
+      "trackId": "trk_295",
+      "hint": "L'album de reprises de Mark Ronson sur lequel figure cette version très connue."
+    },
+    {
+      "id": "AD014",
+      "challenge": "album_detective",
+      "number": 14,
+      "trackId": "trk_296",
+      "hint": "L'album qui a fait basculer Rihanna vers une image plus affirmée."
+    },
+    {
+      "id": "AD015",
+      "challenge": "album_detective",
+      "number": 15,
+      "trackId": "trk_297",
+      "hint": "Le même album que Umbrella, avec un tube construit autour d'un sample dance."
+    },
+    {
+      "id": "AD016",
+      "challenge": "album_detective",
+      "number": 16,
+      "trackId": "trk_298",
+      "hint": "Un des premiers grands tubes dance de Lady Gaga."
+    },
+    {
+      "id": "AD017",
+      "challenge": "album_detective",
+      "number": 17,
+      "trackId": "trk_299",
+      "hint": "Une pochette inspirée par un célèbre tableau révolutionnaire français."
+    },
+    {
+      "id": "AD018",
+      "challenge": "album_detective",
+      "number": 18,
+      "trackId": "trk_300",
+      "hint": "L'album qui a propulsé ce groupe américain sur les radios du monde entier."
+    },
+    {
+      "id": "AD019",
+      "challenge": "album_detective",
+      "number": 19,
+      "trackId": "trk_301",
+      "hint": "Un autre énorme succès extrait du même album."
+    },
+    {
+      "id": "AD020",
+      "challenge": "album_detective",
+      "number": 20,
+      "trackId": "trk_302",
+      "hint": "Le single futuriste qui a précédé I Gotta Feeling."
+    },
+    {
+      "id": "AD021",
+      "challenge": "album_detective",
+      "number": 21,
+      "trackId": "trk_303",
+      "hint": "Un mini-album sombre sorti après The Fame."
+    },
+    {
+      "id": "AD022",
+      "challenge": "album_detective",
+      "number": 22,
+      "trackId": "trk_304",
+      "hint": "Le clip met en scène Lady Gaga et Beyoncé dans une aventure digne d'un film."
+    },
+    {
+      "id": "AD023",
+      "challenge": "album_detective",
+      "number": 23,
+      "trackId": "trk_305",
+      "hint": "Un album de Rihanna qui contient aussi You da One."
+    },
+    {
+      "id": "AD024",
+      "challenge": "album_detective",
+      "number": 24,
+      "trackId": "trk_306",
+      "hint": "Un album qui rend hommage aux sons et aux musiciens de la musique disco et funk."
+    },
+    {
+      "id": "AD025",
+      "challenge": "album_detective",
+      "number": 25,
+      "trackId": "trk_307",
+      "hint": "Le même album que Get Lucky, avec le chanteur des Strokes en invité."
+    },
+    {
+      "id": "AD026",
+      "challenge": "album_detective",
+      "number": 26,
+      "trackId": "trk_308",
+      "hint": "Le premier album d'une chanteuse néo-zélandaise révélée très jeune."
+    },
+    {
+      "id": "AD027",
+      "challenge": "album_detective",
+      "number": 27,
+      "trackId": "trk_309",
+      "hint": "Un album au titre épelé en lettres séparées, porté par un tube feel-good."
+    },
+    {
+      "id": "AD028",
+      "challenge": "album_detective",
+      "number": 28,
+      "trackId": "trk_310",
+      "hint": "L'album qui contient le tube associé à une danse devenue virale."
+    },
+    {
+      "id": "AD029",
+      "challenge": "album_detective",
+      "number": 29,
+      "trackId": "trk_311",
+      "hint": "Un album de Mark Ronson qui fait la part belle au funk rétro."
+    },
+    {
+      "id": "AD030",
+      "challenge": "album_detective",
+      "number": 30,
+      "trackId": "trk_312",
+      "hint": "L'album qui a installé The Weeknd au sommet de la pop mondiale."
+    },
+    {
+      "id": "AD031",
+      "challenge": "album_detective",
+      "number": 31,
+      "trackId": "trk_313",
+      "hint": "Un album de Justin Bieber avec une pochette où il apparaît la tête baissée."
+    },
+    {
+      "id": "AD032",
+      "challenge": "album_detective",
+      "number": 32,
+      "trackId": "trk_314",
+      "hint": "Le même album que Sorry, avec une chanson coécrite par Ed Sheeran."
+    },
+    {
+      "id": "AD033",
+      "challenge": "album_detective",
+      "number": 33,
+      "trackId": "trk_315",
+      "hint": "L'album-concept dont le personnage est représenté par un visage noir et rouge."
+    },
+    {
+      "id": "AD034",
+      "challenge": "album_detective",
+      "number": 34,
+      "trackId": "trk_316",
+      "hint": "L'album porte le même nom que ce tube avec Daft Punk."
+    },
+    {
+      "id": "AD035",
+      "challenge": "album_detective",
+      "number": 35,
+      "trackId": "trk_317",
+      "hint": "L'album studio de Luis Fonsi paru après le succès mondial de ce single."
+    },
+    {
+      "id": "AD036",
+      "challenge": "album_detective",
+      "number": 36,
+      "trackId": "trk_318",
+      "hint": "Un autre tube dance du même album, avec une ligne de basse très marquée."
+    }
+  ],
+  "movie_soundtrack": [
+    {
+      "id": "MOV001",
+      "challenge": "movie_soundtrack",
+      "number": 1,
+      "trackId": "trk_181"
+    },
+    {
+      "id": "MOV002",
+      "challenge": "movie_soundtrack",
+      "number": 2,
+      "trackId": "trk_182"
+    },
+    {
+      "id": "MOV003",
+      "challenge": "movie_soundtrack",
+      "number": 3,
+      "trackId": "trk_183"
+    },
+    {
+      "id": "MOV004",
+      "challenge": "movie_soundtrack",
+      "number": 4,
+      "trackId": "trk_184"
+    },
+    {
+      "id": "MOV005",
+      "challenge": "movie_soundtrack",
+      "number": 5,
+      "trackId": "trk_185"
+    },
+    {
+      "id": "MOV006",
+      "challenge": "movie_soundtrack",
+      "number": 6,
+      "trackId": "trk_186"
+    },
+    {
+      "id": "MOV007",
+      "challenge": "movie_soundtrack",
+      "number": 7,
+      "trackId": "trk_187"
+    },
+    {
+      "id": "MOV008",
+      "challenge": "movie_soundtrack",
+      "number": 8,
+      "trackId": "trk_188"
+    },
+    {
+      "id": "MOV009",
+      "challenge": "movie_soundtrack",
+      "number": 9,
+      "trackId": "trk_189"
+    },
+    {
+      "id": "MOV010",
+      "challenge": "movie_soundtrack",
+      "number": 10,
+      "trackId": "trk_190"
+    },
+    {
+      "id": "MOV011",
+      "challenge": "movie_soundtrack",
+      "number": 11,
+      "trackId": "trk_191"
+    },
+    {
+      "id": "MOV012",
+      "challenge": "movie_soundtrack",
+      "number": 12,
+      "trackId": "trk_192"
+    },
+    {
+      "id": "MOV013",
+      "challenge": "movie_soundtrack",
+      "number": 13,
+      "trackId": "trk_193"
+    },
+    {
+      "id": "MOV014",
+      "challenge": "movie_soundtrack",
+      "number": 14,
+      "trackId": "trk_194"
+    },
+    {
+      "id": "MOV015",
+      "challenge": "movie_soundtrack",
+      "number": 15,
+      "trackId": "trk_195"
+    },
+    {
+      "id": "MOV016",
+      "challenge": "movie_soundtrack",
+      "number": 16,
+      "trackId": "trk_196"
+    },
+    {
+      "id": "MOV017",
+      "challenge": "movie_soundtrack",
+      "number": 17,
+      "trackId": "trk_197"
+    },
+    {
+      "id": "MOV018",
+      "challenge": "movie_soundtrack",
+      "number": 18,
+      "trackId": "trk_198"
+    },
+    {
+      "id": "MOV019",
+      "challenge": "movie_soundtrack",
+      "number": 19,
+      "trackId": "trk_199"
+    },
+    {
+      "id": "MOV020",
+      "challenge": "movie_soundtrack",
+      "number": 20,
+      "trackId": "trk_200"
+    },
+    {
+      "id": "MOV021",
+      "challenge": "movie_soundtrack",
+      "number": 21,
+      "trackId": "trk_201"
+    },
+    {
+      "id": "MOV022",
+      "challenge": "movie_soundtrack",
+      "number": 22,
+      "trackId": "trk_202"
+    },
+    {
+      "id": "MOV023",
+      "challenge": "movie_soundtrack",
+      "number": 23,
+      "trackId": "trk_203"
+    },
+    {
+      "id": "MOV024",
+      "challenge": "movie_soundtrack",
+      "number": 24,
+      "trackId": "trk_204"
+    },
+    {
+      "id": "MOV025",
+      "challenge": "movie_soundtrack",
+      "number": 25,
+      "trackId": "trk_205"
+    },
+    {
+      "id": "MOV026",
+      "challenge": "movie_soundtrack",
+      "number": 26,
+      "trackId": "trk_206"
+    },
+    {
+      "id": "MOV027",
+      "challenge": "movie_soundtrack",
+      "number": 27,
+      "trackId": "trk_207"
+    },
+    {
+      "id": "MOV028",
+      "challenge": "movie_soundtrack",
+      "number": 28,
+      "trackId": "trk_208"
+    },
+    {
+      "id": "MOV029",
+      "challenge": "movie_soundtrack",
+      "number": 29,
+      "trackId": "trk_209"
+    },
+    {
+      "id": "MOV030",
+      "challenge": "movie_soundtrack",
+      "number": 30,
+      "trackId": "trk_210"
+    },
+    {
+      "id": "MOV031",
+      "challenge": "movie_soundtrack",
+      "number": 31,
+      "trackId": "trk_211"
+    },
+    {
+      "id": "MOV032",
+      "challenge": "movie_soundtrack",
+      "number": 32,
+      "trackId": "trk_212"
+    },
+    {
+      "id": "MOV033",
+      "challenge": "movie_soundtrack",
+      "number": 33,
+      "trackId": "trk_213"
+    },
+    {
+      "id": "MOV034",
+      "challenge": "movie_soundtrack",
+      "number": 34,
+      "trackId": "trk_214"
+    },
+    {
+      "id": "MOV035",
+      "challenge": "movie_soundtrack",
+      "number": 35,
+      "trackId": "trk_215"
+    },
+    {
+      "id": "MOV036",
+      "challenge": "movie_soundtrack",
+      "number": 36,
+      "trackId": "trk_216"
+    },
+    {
+      "id": "MOV037",
+      "challenge": "movie_soundtrack",
+      "number": 37,
+      "trackId": "trk_217"
+    },
+    {
+      "id": "MOV038",
+      "challenge": "movie_soundtrack",
+      "number": 38,
+      "trackId": "trk_218"
+    },
+    {
+      "id": "MOV039",
+      "challenge": "movie_soundtrack",
+      "number": 39,
+      "trackId": "trk_219"
+    },
+    {
+      "id": "MOV040",
+      "challenge": "movie_soundtrack",
+      "number": 40,
+      "trackId": "trk_220"
+    },
+    {
+      "id": "MOV041",
+      "challenge": "movie_soundtrack",
+      "number": 41,
+      "trackId": "trk_221"
+    },
+    {
+      "id": "MOV042",
+      "challenge": "movie_soundtrack",
+      "number": 42,
+      "trackId": "trk_222"
+    },
+    {
+      "id": "MOV043",
+      "challenge": "movie_soundtrack",
+      "number": 43,
+      "trackId": "trk_223"
+    },
+    {
+      "id": "MOV044",
+      "challenge": "movie_soundtrack",
+      "number": 44,
+      "trackId": "trk_224"
+    },
+    {
+      "id": "MOV045",
+      "challenge": "movie_soundtrack",
+      "number": 45,
+      "trackId": "trk_225"
+    },
+    {
+      "id": "MOV046",
+      "challenge": "movie_soundtrack",
+      "number": 46,
+      "trackId": "trk_226"
+    },
+    {
+      "id": "MOV047",
+      "challenge": "movie_soundtrack",
+      "number": 47,
+      "trackId": "trk_227"
+    },
+    {
+      "id": "MOV048",
+      "challenge": "movie_soundtrack",
+      "number": 48,
+      "trackId": "trk_228"
+    },
+    {
+      "id": "MOV049",
+      "challenge": "movie_soundtrack",
+      "number": 49,
+      "trackId": "trk_229"
+    },
+    {
+      "id": "MOV050",
+      "challenge": "movie_soundtrack",
+      "number": 50,
+      "trackId": "trk_230"
+    },
+    {
+      "id": "MOV051",
+      "challenge": "movie_soundtrack",
+      "number": 51,
+      "trackId": "trk_231"
+    },
+    {
+      "id": "MOV052",
+      "challenge": "movie_soundtrack",
+      "number": 52,
+      "trackId": "trk_232"
+    },
+    {
+      "id": "MOV053",
+      "challenge": "movie_soundtrack",
+      "number": 53,
+      "trackId": "trk_233"
+    },
+    {
+      "id": "MOV054",
+      "challenge": "movie_soundtrack",
+      "number": 54,
+      "trackId": "trk_234"
+    },
+    {
+      "id": "MOV055",
+      "challenge": "movie_soundtrack",
+      "number": 55,
+      "trackId": "trk_235"
+    },
+    {
+      "id": "MOV056",
+      "challenge": "movie_soundtrack",
+      "number": 56,
+      "trackId": "trk_236"
+    },
+    {
+      "id": "MOV057",
+      "challenge": "movie_soundtrack",
+      "number": 57,
+      "trackId": "trk_237"
+    },
+    {
+      "id": "MOV058",
+      "challenge": "movie_soundtrack",
+      "number": 58,
+      "trackId": "trk_238"
+    },
+    {
+      "id": "MOV059",
+      "challenge": "movie_soundtrack",
+      "number": 59,
+      "trackId": "trk_239"
+    },
+    {
+      "id": "MOV060",
+      "challenge": "movie_soundtrack",
+      "number": 60,
+      "trackId": "trk_240"
+    },
+    {
+      "id": "MOV061",
+      "challenge": "movie_soundtrack",
+      "number": 61,
+      "trackId": "trk_241"
+    },
+    {
+      "id": "MOV062",
+      "challenge": "movie_soundtrack",
+      "number": 62,
+      "trackId": "trk_242"
+    },
+    {
+      "id": "MOV063",
+      "challenge": "movie_soundtrack",
+      "number": 63,
+      "trackId": "trk_243"
+    },
+    {
+      "id": "MOV064",
+      "challenge": "movie_soundtrack",
+      "number": 64,
+      "trackId": "trk_244"
+    },
+    {
+      "id": "MOV065",
+      "challenge": "movie_soundtrack",
+      "number": 65,
+      "trackId": "trk_245"
+    },
+    {
+      "id": "MOV066",
+      "challenge": "movie_soundtrack",
+      "number": 66,
+      "trackId": "trk_246"
+    },
+    {
+      "id": "MOV067",
+      "challenge": "movie_soundtrack",
+      "number": 67,
+      "trackId": "trk_247"
+    },
+    {
+      "id": "MOV068",
+      "challenge": "movie_soundtrack",
+      "number": 68,
+      "trackId": "trk_248"
+    },
+    {
+      "id": "MOV069",
+      "challenge": "movie_soundtrack",
+      "number": 69,
+      "trackId": "trk_249"
+    },
+    {
+      "id": "MOV070",
+      "challenge": "movie_soundtrack",
+      "number": 70,
+      "trackId": "trk_250"
+    },
+    {
+      "id": "MOV071",
+      "challenge": "movie_soundtrack",
+      "number": 71,
+      "trackId": "trk_251"
+    },
+    {
+      "id": "MOV072",
+      "challenge": "movie_soundtrack",
+      "number": 72,
+      "trackId": "trk_252"
+    },
+    {
+      "id": "MOV073",
+      "challenge": "movie_soundtrack",
+      "number": 73,
+      "trackId": "trk_253"
+    },
+    {
+      "id": "MOV074",
+      "challenge": "movie_soundtrack",
+      "number": 74,
+      "trackId": "trk_254"
+    },
+    {
+      "id": "MOV075",
+      "challenge": "movie_soundtrack",
+      "number": 75,
+      "trackId": "trk_255"
+    },
+    {
+      "id": "MOV076",
+      "challenge": "movie_soundtrack",
+      "number": 76,
+      "trackId": "trk_256"
+    }
+  ]
+}

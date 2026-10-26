@@ -1,0 +1,15 @@
+node_modules/
+
+# Local secrets & runtime state (see data/*.example.json)
+data/spotify.json
+data/spotify-token.json
+data/host-key.json
+data/save.json
+
+# Your own audio clips (only the placeholder is tracked)
+media/*
+!media/.gitkeep
+
+.DS_Store
+Thumbs.db
+*.log

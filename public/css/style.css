@@ -1,0 +1,294 @@
+/* MUSICAL MAYHEM: shared design system, bright pop / carnival game-show,
+   neo-brutalist cards (bold ink borders + hard offset "sticker" shadows)
+   on a vivid gradient backdrop. Loud, warm, playful, not dark/gamer.
+   The everyday UI (join a team, judge a buzz, read a question) stays this
+   way on purpose: it has to stay legible and fast-tappable all night.
+   A second, quieter language — cracked glass, near-black duotone, a hot
+   pink fracture — is layered in only for the game's own peak beats (a
+   buzz landing, a Mayhem card won, the champion reveal): see the
+   ".mayhem"/"crack-overlay"/"shatter-flash" primitives below, inspired by
+   the shattered-mirror cover art of Lady Gaga's MAYHEM, the album this
+   game's own "Mayhem cards" already borrowed their name from. */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800;900&display=swap');
+
+:root {
+  /* backdrop gradient (carnival sunset) */
+  --grad-1: #7C3AED;
+  --grad-2: #FF3D9A;
+  --grad-3: #FF7A3D;
+  --grad-4: #FFD23D;
+
+  --ink: #2A1B4D;
+  --ink-soft: #8A7FA0;
+  --surface: #FFFDF8;
+  --surface-2: #FFF1DE;
+  --line: #EEE3FB;
+
+  --acid: #23C16B;
+  --pink: #FF3D6E;
+  --cyan: #2BB6FF;
+  --yellow: #FFD23D;
+  --orange: #FF7A3D;
+  --purple: #8B5CF6;
+
+  --text: var(--ink);
+  --muted: var(--ink-soft);
+  --radius: 24px;
+
+  /* MAYHEM-era accent: near-black (not the purple-tinted --ink) for the
+     rare dramatic surfaces, so they read as a deliberate change of mode
+     rather than just a darker version of the usual card. */
+  --mayhem-void: #0C0712;
+  --mayhem-void-2: #241334;
+
+  /* back-compat aliases used by page-specific <style> blocks */
+  --bg2: var(--surface);
+  --bg3: var(--surface-2);
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: linear-gradient(120deg, var(--grad-1) 0%, var(--grad-2) 38%, var(--grad-3) 68%, var(--grad-4) 100%);
+  background-attachment: local;
+  color: var(--text);
+  font-family: 'Nunito', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  position: relative;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: radial-gradient(#ffffff55 3px, transparent 3px);
+  background-size: 34px 34px;
+  opacity: .35;
+  mix-blend-mode: overlay;
+}
+/* Faint diagonal grain on top of the dot pattern above: a nod to the
+   grainy black-and-white photography of the MAYHEM cover without actually
+   desaturating anything — thin enough it reads as texture, not a filter. */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(115deg, #00000009 0px, #00000009 1px, transparent 1px, transparent 3px);
+  opacity: .6;
+}
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 20px; }
+.wrap-wide { max-width: 1600px; margin: 0 auto; padding: 20px; }
+
+.logo {
+  font-family: 'Fredoka', 'Nunito', sans-serif; font-weight: 700; font-size: clamp(38px, 8vw, 84px);
+  line-height: .9; letter-spacing: -.01em; text-transform: uppercase; color: var(--ink);
+}
+.acid { color: var(--acid); }
+.pink { color: var(--pink); }
+.cyan { color: var(--cyan); }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+.center { text-align: center; }
+
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.row.between { justify-content: space-between; }
+.col { display: flex; flex-direction: column; gap: 10px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+.grid.teams6 { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+
+.card {
+  background: var(--surface); color: var(--ink);
+  border: 3px solid var(--ink); border-radius: var(--radius); padding: 20px;
+  box-shadow: 7px 7px 0 var(--ink);
+}
+.card.tight { padding: 14px; }
+.card.glow { border-color: var(--acid); box-shadow: 7px 7px 0 var(--acid); }
+
+.btn {
+  border: 3px solid var(--ink); border-radius: 999px; padding: 13px 20px; font-weight: 800; font-size: 15px;
+  cursor: pointer; transition: transform .08s ease, box-shadow .08s ease; letter-spacing: .01em;
+  font-family: 'Nunito', sans-serif; box-shadow: 4px 4px 0 var(--ink); background: var(--surface); color: var(--ink);
+}
+.btn:hover { filter: brightness(1.04); }
+.btn:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
+.btn:disabled { opacity: .4; cursor: not-allowed; transform: none; box-shadow: 4px 4px 0 var(--ink); }
+.btn.primary { background: var(--acid); color: #0a2313; }
+.btn.danger { background: var(--pink); color: white; }
+.btn.ghost { background: var(--surface); color: var(--ink); }
+.btn.cyan { background: var(--cyan); color: #04233a; }
+.btn.yellow { background: var(--yellow); color: #3a2900; }
+.btn.block { width: 100%; }
+.btn.lg { padding: 18px 22px; font-size: 20px; }
+.btn.xl { padding: 24px; font-size: 26px; }
+
+input[type=text], input[type=number] {
+  background: var(--surface-2); border: 3px solid var(--ink); color: var(--ink);
+  border-radius: 16px; padding: 14px 16px; font-size: 16px; font-weight: 700; width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+input:focus { outline: 3px solid var(--purple); outline-offset: 1px; }
+
+.badge {
+  display: inline-block; padding: 6px 12px; border-radius: 999px; font-size: 11px; font-weight: 800;
+  letter-spacing: .06em; text-transform: uppercase; background: var(--surface); color: var(--ink);
+  border: 2px solid var(--ink); box-shadow: 2px 2px 0 var(--ink);
+}
+.badge.on { background: var(--acid); color: #0a2313; border-color: var(--ink); }
+.badge.warn { background: var(--yellow); color: #3a2900; border-color: var(--ink); }
+.badge.off { background: var(--pink); color: white; border-color: var(--ink); }
+
+.line { display: flex; justify-content: space-between; align-items: center; padding: 12px 4px; border-bottom: 2px dashed var(--line); }
+.line:last-child { border-bottom: none; }
+
+.team-chip { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 999px; background: var(--surface-2); border: 2px solid var(--ink); font-weight: 800; }
+.dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; border: 2px solid var(--ink); }
+
+/* outlines a team's own accent color so light hues (yellow, lime) stay
+   legible as headline text on the light panels */
+.team-text { text-shadow: 1px 1px 0 var(--ink), -1px 1px 0 var(--ink), 1px -1px 0 var(--ink), -1px -1px 0 var(--ink); }
+.buzz-hero.team-text, .logo.team-text { text-shadow: 3px 3px 0 var(--ink), -3px 3px 0 var(--ink), 3px -3px 0 var(--ink), -3px -3px 0 var(--ink); }
+
+.score { font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 40px; color: var(--ink); }
+.score.big { font-size: 64px; }
+.timer { font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: clamp(60px, 14vw, 140px); color: var(--pink); line-height: 1; }
+
+.buzz-btn {
+  width: 100%; aspect-ratio: 1 / 0.62; min-height: 220px; border: 5px solid var(--ink); border-radius: 40px;
+  background: var(--pink); color: white;
+  font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: clamp(34px, 9vw, 56px);
+  cursor: pointer; box-shadow: 8px 8px 0 var(--ink);
+  text-transform: uppercase; letter-spacing: .02em;
+}
+.buzz-btn:active { transform: translate(4px, 4px); box-shadow: 2px 2px 0 var(--ink); }
+.buzz-btn:disabled { background: var(--surface-2); color: var(--ink-soft); cursor: not-allowed; box-shadow: 4px 4px 0 var(--line); border-color: var(--line); }
+.buzz-btn.locked { animation: none; }
+.buzz-btn.open { animation: buzzBounce 1s ease-in-out infinite; }
+
+.power-card { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-radius: 18px; border: 2px solid var(--ink); background: var(--surface-2); margin: 6px 0; cursor: pointer; box-shadow: 3px 3px 0 var(--ink); }
+.power-card:hover { background: #fff; }
+.power-card .emoji { font-size: 26px; }
+.power-card .name { font-weight: 800; }
+.power-card .desc { color: var(--muted); font-size: 12px; }
+
+/* Tarot-styled Mayhem card, built by MM.tarotCardHtml (public/js/client.js).
+   --tarot-g1/--tarot-g2 are set inline per card (one gradient per power). */
+.tarot-card {
+  width: 240px; aspect-ratio: 5 / 8; max-width: 100%; border-radius: 18px; border: 4px solid var(--ink);
+  background: linear-gradient(165deg, var(--tarot-g1, #8A7FA0), var(--tarot-g2, #2A1B4D));
+  box-shadow: 8px 8px 0 var(--ink); color: #fff; position: relative; overflow: hidden;
+  display: flex; flex-direction: column; align-items: center; justify-content: space-between;
+  padding: 16px 12px; text-align: center; font-family: 'Nunito', sans-serif;
+}
+.tarot-card::before {
+  content: ''; position: absolute; inset: 8px; border: 2px solid rgba(255,255,255,.5); border-radius: 10px; pointer-events: none;
+}
+.tarot-card .tarot-numeral { font-family: 'Fredoka', sans-serif; font-size: 13px; letter-spacing: .3em; opacity: .85; text-transform: uppercase; }
+.tarot-card .tarot-symbol { font-size: 56px; filter: drop-shadow(0 3px 0 rgba(0,0,0,.25)); line-height: 1; }
+.tarot-card .tarot-body { display: flex; flex-direction: column; gap: 3px; }
+.tarot-card .tarot-name { font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 19px; text-transform: uppercase; letter-spacing: .03em; }
+.tarot-card .tarot-sub { font-size: 11px; font-style: italic; opacity: .8; text-transform: uppercase; letter-spacing: .08em; margin-top: -2px; }
+.tarot-card .tarot-power { font-size: 11px; letter-spacing: .14em; opacity: .9; text-transform: uppercase; margin-top: 6px; }
+.tarot-card .tarot-desc { font-size: 11px; opacity: .92; line-height: 1.3; margin-top: 4px; }
+.tarot-card .tarot-flavor { font-size: 10px; opacity: .75; font-style: italic; margin-top: 6px; }
+.tarot-card.sm { width: 112px; padding: 10px 8px; box-shadow: 4px 4px 0 var(--ink); }
+.tarot-card.sm .tarot-symbol { font-size: 30px; }
+.tarot-card.sm .tarot-name { font-size: 12px; }
+.tarot-card.sm .tarot-power { font-size: 9px; margin-top: 2px; }
+/* A faint crack across the glass of every Tarot card, the throughline back
+   to the cover art — kept subtle (low opacity, blended) so it reads as a
+   texture on the card, not noise fighting the symbol/text for attention. */
+.tarot-card .crack-overlay { opacity: .4; }
+
+/* ===== MAYHEM accents (see the design-system note at the top of this
+   file): reserved for the game's own dramatic beats, not everyday UI. */
+
+/* Reusable cracked-glass wash: one SVG, white linework, meant to sit via
+   mix-blend-mode on whatever's behind it (a dark card, a saturated Tarot
+   gradient) so it reads as a crack IN the surface, not a sticker on it.
+   Give the containing element `position:relative` and this fills it. */
+.crack-overlay {
+  position: absolute; inset: 0; pointer-events: none; z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath d='M100 0 L92 38 L112 52 L84 88 L106 108 L68 142 L92 160 L58 200' stroke='white' stroke-width='2.2' fill='none' opacity='0.9'/%3E%3Cpath d='M100 0 L122 34 L94 58 L132 84 L98 114 L142 148 L108 180 L152 200' stroke='white' stroke-width='1.6' fill='none' opacity='0.6'/%3E%3Cpath d='M28 58 L72 90 L38 122' stroke='white' stroke-width='1.6' fill='none' opacity='0.45'/%3E%3Cpath d='M172 48 L128 90 L162 132' stroke='white' stroke-width='1.6' fill='none' opacity='0.45'/%3E%3C/svg%3E");
+  background-size: cover; background-position: center;
+  mix-blend-mode: overlay; opacity: .55;
+}
+
+/* Dark, high-contrast "shattered" surface for the rare peak moments (a
+   Mayhem card won, the champion reveal) — everyday cards/badges keep the
+   bright carnival .card treatment; this is deliberately not the default. */
+.card.mayhem {
+  background: linear-gradient(155deg, var(--mayhem-void), var(--mayhem-void-2) 60%, #3A1030);
+  color: #fff; border-color: var(--mayhem-void); box-shadow: 7px 7px 0 var(--pink);
+  position: relative; overflow: hidden;
+}
+.card.mayhem .muted { color: #C9B9E0; }
+
+/* One bright flash across the whole screen for one instant (a buzz
+   landing) — not a strobe: fires once and fades, never looped, and short
+   enough to read as punctuation rather than a disorienting effect. */
+@keyframes shatterFlash {
+  0% { opacity: 0; }
+  12% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.shatter-flash {
+  position: fixed; inset: 0; z-index: 60; pointer-events: none;
+  background: radial-gradient(circle at 50% 40%, #fff 0%, #fff 3%, transparent 50%), var(--mayhem-void);
+  animation: shatterFlash .45s ease-out forwards;
+}
+
+/* A headline that looks cracked through the middle: two tinted copies of
+   the same text, each clipped to half and nudged apart — the broken-glass
+   double-exposure trick, without drawing a crack graphic over actual
+   letters (illegible at small sizes). Needs data-text="same as content".  */
+.glitch-text { position: relative; display: inline-block; }
+.glitch-text::before, .glitch-text::after {
+  content: attr(data-text); position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden;
+}
+.glitch-text::before { color: var(--pink); clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%); transform: translate(-3px, -2px); opacity: .8; }
+.glitch-text::after { color: var(--cyan); clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%); transform: translate(3px, 2px); opacity: .8; }
+
+.toast {
+  position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%); background: var(--surface); color: var(--ink);
+  padding: 14px 22px; border-radius: 999px; font-weight: 800; display: none; z-index: 50;
+  border: 3px solid var(--ink); box-shadow: 5px 5px 0 var(--ink);
+}
+.toast.show { display: block; animation: popIn .25s ease; }
+
+.hidden { display: none !important; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tabs .btn { flex: 1; min-width: 90px; }
+
+@keyframes buzzBounce { 0%,100% { transform: scale(1) rotate(0); } 50% { transform: scale(1.035) rotate(-0.6deg); } }
+@keyframes popIn { from { transform: translateX(-50%) scale(.85); opacity: 0; } to { transform: translateX(-50%) scale(1); opacity: 1; } }
+@keyframes shake { 10%,90% { transform: translateX(-2px); } 20%,80% { transform: translateX(4px); } 30%,50%,70% { transform: translateX(-8px); } 40%,60% { transform: translateX(8px); } }
+.shake { animation: shake .5s; }
+@keyframes flashBg { 0% { background: #ff3d6e33; } 100% { background: transparent; } }
+.flash { animation: flashBg .6s ease; }
+@keyframes floatIn { from { opacity: 0; transform: translateY(16px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+.float-in { animation: floatIn .4s cubic-bezier(.2,.8,.2,1); }
+@keyframes pulseGlow { 0%,100% { transform: rotate(-1deg) scale(1); } 50% { transform: rotate(1deg) scale(1.035); } }
+.pulse { display: inline-block; animation: pulseGlow 1.8s ease-in-out infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.spin { animation: spin 3s linear infinite; display: inline-block; }
+
+.screen-stage {
+  min-height: 74vh; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; gap: 18px; background: var(--surface); border: 5px solid var(--ink); border-radius: 40px;
+  box-shadow: 10px 10px 0 var(--ink); padding: 40px 24px;
+}
+.qr-box { background: var(--surface); padding: 16px; border-radius: 20px; display: inline-block; line-height: 0; border: 3px solid var(--ink); }
+.code-huge { font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: clamp(50px, 10vw, 96px); letter-spacing: .1em; color: var(--purple); }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--ink-soft); border-radius: 8px; }
+
+/* Publisher badge (Cross-Eyed Cat edition) at the bottom of the landing page. */
+.publisher { display: flex; flex-direction: column; align-items: center; gap: 8px; margin: 32px 0 24px; }
+.publisher img { border-radius: 50%; box-shadow: 0 4px 14px rgba(0,0,0,.18); }

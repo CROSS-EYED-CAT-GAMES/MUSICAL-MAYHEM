@@ -1,0 +1,58 @@
+{
+  "title": "MUSICAL MAYHEM",
+  "tagline": "THE ULTIMATE TEAM MUSIC GAME",
+  "targetMinutes": 40,
+  "port": 8080,
+  "teams": [
+    { "id": "t0", "name": "PISTACHE", "emoji": "🟣", "color": "#8B5CF6" },
+    { "id": "t1", "name": "CASSETTE", "emoji": "🔵", "color": "#2BB6FF" },
+    { "id": "t2", "name": "VINYLE", "emoji": "🟢", "color": "#23C16B" },
+    { "id": "t3", "name": "MP3", "emoji": "🔴", "color": "#FF4D4D" },
+    { "id": "t4", "name": "WALKMAN", "emoji": "🟡", "color": "#FFD23D" },
+    { "id": "t5", "name": "MINIDISC", "emoji": "🟠", "color": "#FF7A3D" }
+  ],
+  "palette": [
+    { "color": "#8B5CF6", "emoji": "🟣" },
+    { "color": "#FF5C8A", "emoji": "🩷" },
+    { "color": "#2BB6FF", "emoji": "🔵" },
+    { "color": "#23C16B", "emoji": "🟢" },
+    { "color": "#FFD23D", "emoji": "🟡" },
+    { "color": "#FF7A3D", "emoji": "🟠" },
+    { "color": "#FF4D4D", "emoji": "🔴" },
+    { "color": "#2DD4BF", "emoji": "🩵" },
+    { "color": "#4C3A8C", "emoji": "🟤" },
+    { "color": "#EC4899", "emoji": "🌸" },
+    { "color": "#84CC16", "emoji": "🍏" },
+    { "color": "#F59E0B", "emoji": "⭐" }
+  ],
+  "game": {
+    "targetDurationMinutes": 40,
+    "maxChallenges": 7,
+    "finalChallengeId": "final_bet",
+    "maxPlaySeconds": 30,
+    "answerSeconds": 15
+  },
+  "selection": {
+    "policy": "winner",
+    "allowRepeat": false,
+    "comebackEnabled": true,
+    "maxConsecutiveSelections": 1,
+    "optionsOffered": 3
+  },
+  "powers": [
+    { "id": "double", "name": "DOUBLE", "emoji": "2️⃣", "description": "Double la prochaine récompense de votre équipe." },
+    { "id": "shield", "name": "SHIELD", "emoji": "🛡️", "description": "Annule le prochain sabotage reçu (BOMB / SILENCE)." },
+    { "id": "oracle", "name": "ORACLE", "emoji": "🔮", "description": "Révèle un indice sur la question en cours." },
+    { "id": "silence", "name": "SILENCE", "emoji": "🤫", "description": "Empêche une équipe adverse de buzzer sur cette question." },
+    { "id": "bomb", "name": "BOMB", "emoji": "💣", "description": "Retire 2 points à une équipe adverse." },
+    { "id": "chaos", "name": "CHAOS", "emoji": "🌀", "description": "Déclenche un effet aléatoire pour tout le monde." }
+  ],
+  "chaos": [
+    { "id": "one_speaks", "text": "Une seule personne peut parler par équipe." },
+    { "id": "buzzer_3s", "text": "Le buzzer ne reste ouvert que 3 secondes !" },
+    { "id": "double_points", "text": "Les points de cette question sont doublés." }
+  ],
+  "sessionCookieDays": 1,
+  "maxUndoDepth": 25,
+  "maxEventLog": 150
+}

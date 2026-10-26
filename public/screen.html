@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MUSICAL MAYHEM · Screen</title>
+<link rel="stylesheet" href="/css/style.css">
+<style>
+  /* Screen.html is read from across a room on a TV, not held a few inches
+     from a face like host/team on a phone, so it needs its own larger
+     baseline on top of the shared stylesheet's phone-tuned sizes (most of
+     which are fixed px, not vw-scaled, so they don't grow with a bigger
+     display on their own). */
+  body { padding-bottom: 10px; font-size: 20px; }
+  /* CHAOS gets the MAYHEM dark/fracture treatment (see style.css) instead
+     of the usual bright .badge.warn yellow: of all the recurring banners
+     on this page, a random chaotic house-rule firing for the whole room
+     is the one that's actually "mayhem" in the album's sense, not just
+     the game's name. */
+  #chaosBanner { font-size: 16px; padding: 10px 18px; background: var(--mayhem-void); color: #fff; border-color: var(--mayhem-void); position: relative; overflow: hidden; }
+  #chaosBanner.warn { background: var(--mayhem-void); }
+  .badge { font-size: 16px; padding: 8px 16px; }
+  .small { font-size: 17px; }
+  .score { font-size: 52px; }
+  .score.big { font-size: 80px; }
+  .line { font-size: 22px; }
+  .team-chip { font-size: 19px; padding: 10px 16px; }
+  .buzz-hero { font-family:'Fredoka',sans-serif; font-weight:700; font-size:clamp(50px,11vw,110px); line-height:1; }
+  .clue-box { font-size: clamp(24px,4vw,40px); font-weight: 800; max-width: 900px; }
+  .panic-team { background:var(--surface-2); border:2px solid var(--ink); border-radius:16px; padding:12px 14px; text-align:left; }
+  .panic-team h4 { margin:0 0 8px; font-size: 22px; }
+  .panic-item { font-size:19px; padding:4px 0; }
+  .panic-item.valid { color: var(--acid); font-weight: 800; }
+  .panic-item.invalid { color: var(--pink); text-decoration: line-through; }
+  .lead-row { display:flex; align-items:center; gap:14px; padding:12px 16px; border-radius:14px; background:var(--surface-2); border:2px solid var(--ink); margin-bottom:8px; }
+  .lead-row .rank { font-size:26px; width:36px; text-align:center; }
+  .lead-row .bar { height:10px; border-radius:6px; background:var(--acid); }
+  .confetti-piece { position:absolute; top:-40px; font-size:28px; animation: fall 3.2s linear forwards; }
+  @keyframes fall { to { transform: translateY(105vh) rotate(340deg); opacity:.3; } }
+  .stage-wrap { position: relative; overflow: hidden; width: 100%; }
+</style>
+</head>
+<body>
+<div class="wrap-wide">
+  <div class="row between" style="margin-bottom:12px">
+    <div class="row">
+      <span class="badge on" id="connBadge">🟢 connecté</span>
+      <span class="badge" id="roundBadge">MUSICAL MAYHEM</span>
+    </div>
+    <div id="chaosBanner" class="badge warn hidden">🌀 CHAOS</div>
+  </div>
+  <div class="stage-wrap">
+    <div id="stage" class="screen-stage float-in"></div>
+  </div>
+  <div id="scoreStrip" class="grid teams6" style="margin-top:22px"></div>
+</div>
+<div id="toast" class="toast"></div>
+<script src="/js/client.js"></script>
+<script src="/js/screen.js"></script>
+</body>
+</html>
